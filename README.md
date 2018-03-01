@@ -2,7 +2,7 @@
 
 Ground Based Observtory
 
-Visit the [website](https://www.nsf.gov/) [https://www.nsf.gov/]
+A common repository for data that is observed by ground based observatories or data that is derived from ground based data.
 
 # How to Use This Repository
 

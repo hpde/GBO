@@ -2,7 +2,7 @@
 
 Ground Based Observtory
 
-A common repository for data that is observed by ground based observatories or data that is derived from ground based data.
+A common repository for SPASE descriptions of data that is observed by ground based observatories or data that is derived from ground based data.
 
 # How to Use This Repository
 

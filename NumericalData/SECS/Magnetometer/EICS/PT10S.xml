@@ -6,15 +6,15 @@
     <ResourceHeader>
       <ResourceName>Spherical Elementary Currents Systems (SECS) technique Equivalent Ionospheric Currents (EICs) derived at 10 sec Resolution in Geographic Coordinates</ResourceName>
       <AlternateName>EIC data</AlternateName>
-	  <DOI>10.21978/P8D62B</DOI>
-      <ReleaseDate>2018-06-20T15:58:12Z</ReleaseDate>
+      <DOI>10.21978/P8D62B</DOI>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>The Equivalent Ionospheric Currents (EICs) data set contains horizontal ionospheric current data (Jx and Jy) derived using the SECS technique [Amm and Viljanen, Earth Planets Space, v. 51 pp. 431-440, 1999]. Positive Jx points to the geographic north pole. Positive Jy points to geographic east. The location of these currents is in geographic coordinates at 10s resolution. The distribution of these currents is not the same as the spherical elementary current amplitudes. The UT and date are obtained from the file name. For more information see Weygand et al. J. Geophys. Res. 116, A03305, doi:10.1029/2010JA016177, 2011. </Description>
       <Acknowledgement>Dr. O. Amm; Dr. J.M. Weygand; Prof. V. Angelopoulos, CANMOS, CARISMA, DMI, GIMA, MACCS, STEP, THEMIS</Acknowledgement>
-	  <PublicationInfo>
-		<Authors>Weygand, James M.</Authors>
-		<PublicationDate>2009-01-01T00:00:00</PublicationDate>
-		<PublishedBy>VSPO</PublishedBy>
-	  </PublicationInfo>
+      <PublicationInfo>
+        <Authors>Weygand, James M.</Authors>
+        <PublicationDate>2009-01-01T00:00:00</PublicationDate>
+        <PublishedBy>VSPO</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>ProjectScientist</Role>
@@ -33,7 +33,7 @@
       </Contact>
       <InformationURL>
         <Name>Journal of Earth, Planets, and Space article on the SECS technique</Name>
-        <URL>http://www.terrapub.co.jp/journals/EPS/pdf/5106/51060431.pdf</URL>
+        <URL>https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2009JA014832</URL>
         <Description>Research Article on the SECS technique.</Description>
       </InformationURL>
       <InformationURL>

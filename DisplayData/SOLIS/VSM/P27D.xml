@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/DisplayData/SOLIS/VSM/P27D</ResourceID>
     <ResourceHeader>
       <ResourceName>SOLIS VSM Synoptic Maps</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>These maps show magnetic flux emanating from
 the photosphere as gray coding against the sun's full latitude and 
 Carrington longitude ranges.  The maps are available once per Carrington
@@ -24,7 +24,7 @@ cooperatively by NSF/NSO and NASA/LWS.</Acknowledgement>
       </Contact>
       <InformationURL>
         <Name>Intro to SOLIS VSM Maps</Name>
-        <URL>http://solis.nso.edu/vsm/map_info.html</URL>
+        <URL>https://solis.nso.edu/vsm/map_info.html</URL>
       </InformationURL>
       <PriorID>spase://VSPO/DisplayData/SOLIS/VSM/Synoptic_Maps</PriorID>
       <PriorID>spase://VSPO/DisplayData/SOLIS/VSM/P27D</PriorID>
@@ -35,7 +35,7 @@ cooperatively by NSF/NSO and NASA/LWS.</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>SOLIS VSM Maps at NSO</Name>
-        <URL>http://solis.nso.edu/vsm/vsm_maps.html</URL>
+        <URL>https://solis.nso.edu/vsm/vsm_maps.php</URL>
       </AccessURL>
       <Format>JPEG</Format>
     </AccessInformation>

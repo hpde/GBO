@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/SOLIS/VSM/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>SOLIS VSM Daily Images, FITS</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>This data product consists of daily sets of four
 images created from SOLIS Vector Spectromagnetograph (VSM) data: 
 (a) photospheric longitudinal magnetic field, based on FeI 630.15 
@@ -27,7 +27,7 @@ cooperatively by NSF/NSO and NASA/LWS.</Acknowledgement>
       </Contact>
       <InformationURL>
         <Name>Intro to SOLIS_VSM Data</Name>
-        <URL>http://solis.nso.edu/vsm/vsm_image_info3.html</URL>
+        <URL>https://solis.nso.edu/vsm/vsm_image_info3.html</URL>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/SOLIS/VSM/Daily_Images</PriorID>
       <PriorID>spase://VSPO/NumericalData/SOLIS/VSM/P1D</PriorID>
@@ -38,7 +38,7 @@ cooperatively by NSF/NSO and NASA/LWS.</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>SOLIS data access page at NSO</Name>
-        <URL>http://solis.nso.edu/solis_data4.html</URL>
+        <URL>https://solis.nso.edu/0/solis_data.html</URL>
       </AccessURL>
       <Format>JPEG</Format>
     </AccessInformation>

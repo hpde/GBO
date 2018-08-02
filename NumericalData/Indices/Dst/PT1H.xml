@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/Indices/Dst/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Dst hourly indices</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>Dst geomagnetic indices.  
 The web site of WDC for Geomagnetism at Kyoto U., url given below, 
 offers plots and numeric downloads for 1-hour Dst and related indices.    
@@ -40,7 +40,7 @@ Kyoto, including index documentation and history files.</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>OMNIWeb</Name>
-        <URL>http://omniweb.gsfc.nasa.gov/ow.html</URL>
+        <URL>https://omniweb.gsfc.nasa.gov/ow_min.html</URL>
         <Description>Path to hourly OMNI data set, with
 subset/plot/list functionalities, and to ftp accessibility.</Description>
       </AccessURL>

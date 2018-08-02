@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/DisplayData/BBSO/IM</ResourceID>
     <ResourceHeader>
       <ResourceName>BBSO solar images</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>Big Bear Solar Observatory (BBSO) solar images of the following types or sources:  broadband, Calcium II K line, Dopplergram, H alpha, Vectomagnetogram components I, Q, U and V, white light, He I line (10830 A), He I D3 line (5876 A o), He I  D3 line (5876 A), Ca I line (6103 A), IR camera</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Philip.Goode</PersonID>
@@ -24,7 +24,7 @@
       </AccessURL>
       <AccessURL>
         <Name>Virtual Solar Observatory</Name>
-        <URL>http://www.virtualsolar.org/</URL>
+        <URL>https://sdac.virtualsolar.org/cgi/search</URL>
       </AccessURL>
       <Format>JPEG</Format>
     </AccessInformation>

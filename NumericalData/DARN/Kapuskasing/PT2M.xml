@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/DARN/Kapuskasing/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>SuperDARN Kapuskasing (KAPU), Ionospheric Convection Velocity</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>Super Dual Auroral Radar Network, SuperDARN, Kapuskasing, Key Parameters Data, Ionospheric Convection North and East Velocities</Description>
       <Acknowledgement>R. Greenwald</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
       </InformationURL>
       <InformationURL>
         <Name>Worldwide List of SuperDARN Observatories</Name>
-        <URL>http://superdarn.ca/news/item/58-sd-radar-list</URL>
+        <URL>http://vt.superdarn.org/tiki-index.php?page=Radar+Overview</URL>
         <Description>Super Dual Auroral Radar Network, SuperDARN, Worldwide List of SuperDARN Observatories</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/DARN/Kapuskasing/PT2M</PriorID>

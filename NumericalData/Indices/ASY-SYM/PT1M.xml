@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/Indices/ASY-SYM/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ASY and SYM indices</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>ASY and SYM geomagnetic indices.  
 The web site of WDC for Geomagnetism at Kyoto U., url given below, 
 offers plots and numeric downloads for 1-minute ASY, SYM, and 
@@ -46,7 +46,7 @@ Kyoto, including index documentation and history files.</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>OMNIWeb</Name>
-        <URL>http://omniweb.gsfc.nasa.gov/ow_min.html</URL>
+        <URL>https://omniweb.gsfc.nasa.gov/ow_min.html</URL>
         <Description>Path to 1-min OMNI data set for 1995 and later, with
 subset/plot/list functionalities, and to ftp accessibility.</Description>
       </AccessURL>

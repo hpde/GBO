@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/CANOPUS/MPA/KeyParameter/K0/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS Meridian Scanning Photometer Array (MPA), Key Parameters, K0, 1 min Data</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>Station Status, Merged Scaled 557.7 nm Scans and Peak Intensity. Merged Scans&gt;from 3 stations along constant Geodetic Longitude of 265&#xB0;, from Latitude 46&#xB0; to 67&#xB0; References: Rostoker, G., Samson, J.C., Creutzberg, F., Hughes, T.J., McDiarmid, D.R., McNamara, A.G., Vallance Jones, A., Wallis, D.D., Cogger, L.L., CANOPUS - A Ground Based Instrument Array for Remote Sensing the High Latitude Ionosphere during the ISTP/GGS Program, Space Science Reviews, 71, Issue 1-4, 743-760, 1995. Samson, J.C., Lyons, L.R., Newell, P.T., Creutzberg, F. and Xu, B., Proton Aurora Substorm Intensifications, Geophys. Res. Lett., 19, 2167, 1992. Samson, J.C., Hughes, T.J., Creutzberg, F., Wallis, D.D., Greenwald, R.A. and Ruohoniemi, J.M., Observations of a Detached Discrete Arc in association with Field Line Resonances, J. Geophys. Res., 96, 15, 683, 1991.</Description>
       <Acknowledgement>J.C. Samson, E.F. Donovan</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=CN_K0_MPA&amp;index=sp_phys</URL>
         <ProductKey>CN_K0_MPA</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

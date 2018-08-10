@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/DARN/Stokkseyri/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>SuperDARN Iceland West, Stokkseyri (STO), Ionospheric Convection Velocity</ResourceName>
-      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>Super Dual Auroral Radar Network, SuperDARN, Iceland West, Stokkseyri, Key Parameters Data, Ionospheric Convection North and East Velocities</Description>
       <Acknowledgement>R. Greenwald</Acknowledgement>
       <Contact>
@@ -68,7 +68,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DN_K0_ICEW&amp;index=sp_phys</URL>
         <ProductKey>DN_K0_ICEW</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

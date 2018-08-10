@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/CANOPUS/MARI/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS MARI Key Parameters</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>CANOPUS MARI (Magnetometer and Riometer Array) Magnetometer Key Parameters - "Local AE Index" Upper and Lower Bounds</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gordon.Rostoker</PersonID>
@@ -29,7 +29,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=CN_K0_MARI&amp;index=sp_phys</URL>
         <ProductKey>CN_K0_MARI</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/CANOPUS/ASI/KeyParameter/K0/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS All Sky Imager (ASI), Key Parameters, K0, 1 min Data</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>Images and Intensities, 557.7 nm Images binned to Geodetic Grid. References: Rostoker, G., Samson, J.C., Creutzberg, F., Hughes, T.J., McDiarmid, D.R., McNamara, A.G., Vallance Jones, A., Wallis, D.D., Cogger, L.L., CANOPUS - A Ground Based Instrument Array for Remote Sensing the High Latitude Ionosphere during the ISTP/GGS Program, Space Science Reviews, 71, Issue 1-4, 743-760, 1995.</Description>
       <Acknowledgement>J.C. Samson, E.F. Donovan</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=CN_K0_ASI&amp;index=sp_phys</URL>
         <ProductKey>CN_K0_ASI</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/MACCS/MAG/PT5.00S</ResourceID>
     <ResourceHeader>
       <ResourceName>MACCS Ground Magnetometer Data</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2019-03-04T10:59:51.000Z</ReleaseDate>
       <Description>MACCS (Magnetometer Array for Cusp and Cleft Studies) high resolution ground magnetometer digital files and plots</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.Engebretson</PersonID>
@@ -20,7 +20,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>MACCS web site at Augsburg College</Name>
-        <URL>http://yspace.augsburg.edu/space/</URL>
+        <URL>http://space.augsburg.edu/maccs/</URL>
       </AccessURL>
       <Format>Text</Format>
     </AccessInformation>

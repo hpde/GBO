@@ -7,7 +7,7 @@
       <ResourceName>Magnetic Field Hourly Mean Martin.de.Vivies Station</ResourceName>
       <AlternateName>IAGA:Martin.de.Vivies Hourly Mean Magnetic Field</AlternateName>
       <AlternateName>IAGA:AMS Hourly Mean Magnetic Field</AlternateName>
-      <ReleaseDate>2019-04-22T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>Hourly mean magnetic field data determined for magnetometer data from the Martin.de.Vivies station (IAGA Station Code: AMS).  The field observations that have been corrected for possible errors in timing, calibration, sign, transcription, omission, and misunderstanding. The hourly mean is calculated using data from the beginning of the hour to the end.</Description>
       <Acknowledgement>Please acknowledge Leif Svalgaard and Edward W. Cliver when using this data.</Acknowledgement>
       <Contact>
@@ -28,7 +28,7 @@
         <Description>Information regarding the generation of the hourly mean data and its use in calculating interhourly variability (IHV) index of geomagnetic activity can be found in "Interhourly variability index of geomagnetic activity and its use in deriving the long-term variation of solar wind speed", Svalgaard, Leif and Cliver, Edward W., Journal of Geophysical Research, Vol. 112, A10111, doi:10.1029/2007JA012437, 2007.</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Svalgaard/Martin.De.Vivies/PT1H</PriorID>
-      <PriorID>spase://GBO/NumericalData/Svalgaard/Martin.De.Vivies/PT1H</PriorID>
+      <PriorID>spase://GBO/NumericalData/Svalgaard/Martin.de.Vivies/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>

@@ -5,11 +5,11 @@
     <ResourceID>spase://GBO/NumericalData/Augsburg/ULF/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Augsburg ULF data set</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>See http://virbo.org/Augsburg/ULF</Description>
       <Acknowledgement>http://adsabs.harvard.edu/abs/2007P%26SS...55..755K</Acknowledgement>
       <Contact>
-        <PersonID>spase://SMWG/Person/Mark.J.Engebretsen</PersonID>
+        <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>

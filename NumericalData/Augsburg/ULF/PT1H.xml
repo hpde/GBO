@@ -1,32 +1,37 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Augsburg/ULF/PT1H</ResourceID>
     <ResourceHeader>
-      <ResourceName>Augsburg ULF data set</ResourceName>
+      <ResourceName>Augsburg ULF Data Set</ResourceName>
       <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
-      <Description>See http://virbo.org/Augsburg/ULF</Description>
-      <Acknowledgement>http://adsabs.harvard.edu/abs/2007P%26SS...55..755K</Acknowledgement>
+      <Description>Various geomagnetic indices (Kp, AE, Dst, SYM-H, PC) and averaged solar wind/IMF parameters quantify the energy supply in certain regions of the solar wind-magnetosphere-ionosphere system, and are used as primary tools in statistical studies of solar-terrestrial relationships. However, these indices characterize the steady-state level of the electrodynamics of the near-Earth environment. The turbulent character of solar wind drivers and the existence of natural MHD waveguides and resonators in the magnetospheric plasma in the ULF frequency range ( about 2 mHz to 10 mHz) ensures a quasi-periodic magnetic field response to forcing at the boundary layers. Therefore, much of the turbulent nature of plasma processes of solar wind-magnetosphere-ionosphere interactions can be monitored with ground-based or space observations in the ULF frequency range. We have constructed a new index, coined a ULF wave index, characterizing the turbulent character of the energy transfer from the solar wind into the upper atmosphere and the short-scale variability of near-Earth electromagnetic processes. We suppose that a wide range of space physics studies will benefit from the introduction of this new index.</Description>
+      <Acknowledgement>Please acknowlege Mark.J.Engebretson and cite Kozyreva et al., 2007: In search of a new ULF Wave Index: Comparison of Pc5 Power with Dynamics of Geostationary Relativistic Electrons, Kozyreva, O., Pilipenko, V., Engebretson, M.J., Yumoto, K., Watermann, J., N. Romanova, Planet. Space Sci., 55(6), 755-769, 2007 (DOI: 10.1016/j.pss.2006.03.013).</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>
-        <Name>Documents on author's web page</Name>
-        <URL>ftp://space.augsburg.edu/ftp/MACCS/ULF_Index/_Index_readme</URL>
-        <Description>Documents on author's web page</Description>
+        <Name>Documents concerning the MACCS Ground Station Chain</Name>
+        <URL>http://virbo.org/Augsburg/ULF/</URL>
+        <Description>Augsburg ULF Index Web Page hosted by the Virtual Radiation Belt Observatory, ViRBO</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Documents concerning the MACCS Ground Station Chain</Name>
+        <URL>http://www.serc.kyushu-u.ac.jp/ultima/6Engebretson_MACCS.pdf</URL>
+        <Description>Documents concerning the MACCS Ground Station Chain, hosted by the Kyushu University Ultima Web Page</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/Augsburg/ULF/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/Augsburg</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/ViRBO</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Data files associated with the Augsburg ULF data set</Name>
-        <URL>ftp://space.augsburg.edu/ftp/MACCS/ULF_Index</URL>
-        <Description>Web page for this dataset</Description>
+        <URL>http://mag.gmu.edu/ftp/Augsburg/ULF/merged/</URL>
+        <Description>Web Page for access to these Data Files</Description>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>

@@ -47,7 +47,6 @@
       <Cadence>PT1H</Cadence>
     </TemporalDescription>
     <ObservedRegion>Earth.NearSurface</ObservedRegion>
-    <InputResourceID/>
     <Parameter>
       <Name>Tgr</Name>
       <ParameterKey>Augsburg_ULF-1-v0</ParameterKey>

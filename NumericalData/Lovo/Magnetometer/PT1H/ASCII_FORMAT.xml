@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Lovo/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Lovo Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Lovo Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Geological Survey of Sweden (SGU) for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,85 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            LOV 1929 D H Z
-            LOV 1930 D H Z
-            LOV 1931 D H Z
-            LOV 1932 D H Z
-            LOV 1933 D H Z
-            LOV 1934 D H Z
-            LOV 1935 D H Z
-            LOV 1936 D H Z
-            LOV 1937 D H Z
-            LOV 1938 D H Z
-            LOV 1939 D H Z
-            LOV 1940 D H Z
-            LOV 1941 D H Z
-            LOV 1942 D H Z
-            LOV 1943 D H Z
-            LOV 1944 D H Z
-            LOV 1945 D H Z
-            LOV 1946 D H Z
-            LOV 1947 D H Z
-            LOV 1948 D H Z
-            LOV 1949 D H Z
-            LOV 1950 D H Z
-            LOV 1951 D H Z
-            LOV 1952 D H Z
-            LOV 1953 D H Z
-            LOV 1954 D H Z
-            LOV 1955 D H Z
-            LOV 1956 D H Z
-            LOV 1957 D H Z
-            LOV 1958 D H Z
-            LOV 1959 D H Z
-            LOV 1960 D H Z
-            LOV 1961 D H Z
-            LOV 1962 D H Z
-            LOV 1963 D H Z
-            LOV 1964 D H Z
-            LOV 1965 D H Z
-            LOV 1966 D H Z
-            LOV 1967 D H Z
-            LOV 1968 D H Z
-            LOV 1969 D H Z
-            LOV 1970 D H Z
-            LOV 1971 D H Z
-            LOV 1972 D H Z
-            LOV 1973 D H Z
-            LOV 1974 D H Z
-            LOV 1975 D H Z
-            LOV 1976 D H Z
-            LOV 1977 D H Z
-            LOV 1978 H Z
-            LOV 1979 H Z
-            LOV 1980 H Z
-            LOV 1981 X Y Z
-            LOV 1982 X Y Z
-            LOV 1983 X Y Z
-            LOV 1984 X Y Z
-            LOV 1985 X Y Z
-            LOV 1986 X Y Z
-            LOV 1987 X Y Z F
-            LOV 1988 X Y Z F
-            LOV 1989 X Y Z F
-            LOV 1990 X Y Z F
-            LOV 1991 X Y Z F
-            LOV 1992 X Y Z F
-            LOV 1993 X Y Z F
-            LOV 1994 X Y Z
-            LOV 1995 X Y Z
-            LOV 1996 X Y Z
-            LOV 1997 X Y Z
-            LOV 1998 X Y Z F
-            LOV 1999 X Y Z F
-            LOV 2000 X Y Z F
-            LOV 2001 X Y Z F
-            LOV 2002 X Y Z F
-            LOV 2003 X Y Z F
-            LOV 2004 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

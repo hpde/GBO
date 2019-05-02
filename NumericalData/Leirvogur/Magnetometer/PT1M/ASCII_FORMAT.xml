@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Leirvogur/Magnetometer/PT1M/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Leirvogur Magnetometer 1-min Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Leirvogur Magnetometer data, 1-min time resoluion, in ASCII format. Magnetic Field Vector Element List: DHZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Science Institute, University of Iceland for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,33 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            LRV 1988 D H Z F
-            LRV 1989 D H Z F
-            LRV 1990 D H Z F
-            LRV 1991 D H Z F
-            LRV 1992 D H Z F
-            LRV 1993 D H Z F
-            LRV 1994 D H Z F
-            LRV 1995 D H Z F
-            LRV 1996 D H Z F
-            LRV 1997 D H Z F
-            LRV 1998 D H Z F
-            LRV 1999 D H Z F
-            LRV 2000 D H Z F
-            LRV 2001 D H Z F
-            LRV 2002 D H Z F
-            LRV 2003 D H Z F
-            LRV 2004 D H Z F
-            LRV 2005 D H Z F
-            LRV 2006 D H Z F
-            LRV 2007 D H Z F
-            LRV 2008 D H Z F
-            LRV 2009 D H Z F
-            LRV 2010 D H Z F
-            LRV 2011 D H Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Learmonth/Magnetometer/PT1M/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Learmonth Magnetometer 1-min Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Learmonth Magnetometer data, 1-min time resoluion, in ASCII format. Magnetic Field Vector Element List: XYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Australian Geological Survey Organisation for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,27 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            LRM 1993 X Y Z F
-            LRM 1994 X Y Z F
-            LRM 1995 X Y Z F
-            LRM 1996 X Y Z F
-            LRM 1997 X Y Z F
-            LRM 1998 X Y Z F
-            LRM 1999 X Y Z F
-            LRM 2000 X Y Z F
-            LRM 2001 X Y Z F
-            LRM 2002 X Y Z F
-            LRM 2003 X Y Z F
-            LRM 2004 X Y Z F
-            LRM 2005 X Y Z F
-            LRM 2006 X Y Z F
-            LRM 2007 X Y Z F
-            LRM 2008 X Y Z F
-            LRM 2009 X Y Z F
-            LRM 2010 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

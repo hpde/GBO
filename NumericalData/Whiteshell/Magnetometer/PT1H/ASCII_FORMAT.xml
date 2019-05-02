@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Whiteshell/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Whiteshell Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Whiteshell Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: XYZ. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Whiteshell Observatory Director for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,11 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            WHS 1979 X Y Z
-            WHS 1980 X Y Z
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

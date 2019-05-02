@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Abisko/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Abisko Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Abisko Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Geological Survey of Sweden (SGU) for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,64 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            ABK 1951 X Y Z
-            ABK 1952 X Y Z
-            ABK 1953 X Y
-            ABK 1954 X Y Z
-            ABK 1955 X Y Z
-            ABK 1956 X Y Z
-            ABK 1957 X Y Z
-            ABK 1958 X Y Z
-            ABK 1959 X Y Z
-            ABK 1960 X Y Z
-            ABK 1961 X Y Z
-            ABK 1966 X Y Z
-            ABK 1967 X Y Z
-            ABK 1968 D H Z
-            ABK 1969 X Y Z
-            ABK 1970 D H Z
-            ABK 1971 D H Z
-            ABK 1972 D H Z
-            ABK 1973 D H Z
-            ABK 1974 D H Z
-            ABK 1975 D H Z
-            ABK 1976 D H Z
-            ABK 1977 D H Z
-            ABK 1978 D H Z
-            ABK 1979 X Y Z
-            ABK 1980 X Y Z
-            ABK 1981 D H Z
-            ABK 1982 X Y Z
-            ABK 1983 X Y Z
-            ABK 1984 X Y Z
-            ABK 1985 X Y Z
-            ABK 1986 X Y Z
-            ABK 1987 X Y Z
-            ABK 1988 X Y Z
-            ABK 1989 X Y Z
-            ABK 1990 X Y Z
-            ABK 1991 X Y Z
-            ABK 1992 X Y Z
-            ABK 1993 X Y Z
-            ABK 1994 X Y Z
-            ABK 1995 X Y Z
-            ABK 1996 X Y Z
-            ABK 1997 X Y Z
-            ABK 1998 X Y Z F
-            ABK 1999 X Y Z F
-            ABK 2000 X Y Z F
-            ABK 2001 X Y Z F
-            ABK 2002 X Y Z F
-            ABK 2003 X Y Z F
-            ABK 2004 X Y Z F
-            ABK 2005 X Y Z F
-            ABK 2006 X Y Z F
-            ABK 2007 X Y Z F
-            ABK 2008 X Y Z F
-            ABK 2009 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://GBO/NumericalData/Svalgaard/Mbour/PT1H</ResourceID>
+    <ResourceID>spase://GBO/NumericalData/Svalgaard/MBour/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Field Hourly Mean Mbour Station</ResourceName>
       <AlternateName>IAGA:Mbour Hourly Mean Magnetic Field</AlternateName>
       <AlternateName>IAGA:MBO Hourly Mean Magnetic Field</AlternateName>
-      <ReleaseDate>2018-05-31T15:58:12Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>Hourly mean magnetic field data determined for magnetometer data from the Mbour station (IAGA Station Code: MBO).  The field observations that have been corrected for possible errors in timing, calibration, sign, transcription, omission, and misunderstanding. The hourly mean is calculated using data from the beginning of the hour to the end.</Description>
       <Acknowledgement>Please acknowledge Leif Svalgaard and Edward W. Cliver when using this data.</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
       <Acknowledgement>Leif Svalgaard and Edward W. Cliver for the generation of the interhourly variability (IHV) index of geomagnetic activity.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Ground/Mbour/Magnetometer</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Ground/MBour/Magnetometer</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

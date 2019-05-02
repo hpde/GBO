@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Witteveen/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Witteveen Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Witteveen Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHZ. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Witteveen Observatory Director for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,56 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            WIT 1938 D H Z
-            WIT 1939 D H Z
-            WIT 1940 D H Z
-            WIT 1941 D H Z
-            WIT 1942 D H Z
-            WIT 1943 D H Z
-            WIT 1944 D H Z
-            WIT 1945 D H Z
-            WIT 1946 D H Z
-            WIT 1947 D H Z
-            WIT 1948 D H Z
-            WIT 1949 D H Z
-            WIT 1950 D H Z
-            WIT 1951 D H Z
-            WIT 1952 D H Z
-            WIT 1953 D H Z
-            WIT 1954 D H Z
-            WIT 1955 D H Z
-            WIT 1956 D H Z
-            WIT 1957 D H Z
-            WIT 1958 D H Z
-            WIT 1959 D H Z
-            WIT 1960 D H Z
-            WIT 1961 D H Z
-            WIT 1962 D H Z
-            WIT 1963 D H Z
-            WIT 1964 D H Z
-            WIT 1965 D H Z
-            WIT 1966 D H Z
-            WIT 1967 D H Z
-            WIT 1968 D H Z
-            WIT 1969 D H Z
-            WIT 1970 D H Z
-            WIT 1971 D H Z
-            WIT 1972 D H Z
-            WIT 1973 D H Z
-            WIT 1974 D H Z
-            WIT 1975 D H Z
-            WIT 1976 D H Z
-            WIT 1977 D H Z
-            WIT 1978 D H Z
-            WIT 1979 D H Z
-            WIT 1980 D H Z
-            WIT 1981 D H Z
-            WIT 1982 D H Z
-            WIT 1983 D H Z
-            WIT 1984 D H Z
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

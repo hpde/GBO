@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Fuquene/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Fuquene Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Fuquene Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHZ. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Instituto Geografico Agustin Codazzi, Bogota, Colombia for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -247,57 +247,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            FUQ 1955 D H Z
-            FUQ 1956 D H Z
-            FUQ 1957 D H Z
-            FUQ 1958 D H Z
-            FUQ 1959 D H Z
-            FUQ 1960 D H Z
-            FUQ 1961 D H Z
-            FUQ 1962 D H Z
-            FUQ 1963 D H Z
-            FUQ 1964 D H Z
-            FUQ 1965 D H Z
-            FUQ 1966 D H Z
-            FUQ 1967 D H Z
-            FUQ 1968 D H Z
-            FUQ 1969 D H Z
-            FUQ 1970 D H Z
-            FUQ 1971 D H Z
-            FUQ 1972 D H Z
-            FUQ 1973 D H Z
-            FUQ 1974 D H Z
-            FUQ 1975 D H Z
-            FUQ 1976 D H Z
-            FUQ 1977 D H Z
-            FUQ 1984 D H Z
-            FUQ 1985 D H Z
-            FUQ 1986 D H Z
-            FUQ 1987 D H Z
-            FUQ 1988 D H Z
-            FUQ 1989 D H Z
-            FUQ 1991 D H Z
-            FUQ 1992 D H Z
-            FUQ 1993 D H Z
-            FUQ 1994 D H Z
-            FUQ 1995 D H Z
-            FUQ 1996 D H Z
-            FUQ 1997 D H Z
-            FUQ 1998 D H Z
-            FUQ 1999 D H Z
-            FUQ 2000 D H Z
-            FUQ 2001 D H Z
-            FUQ 2002 D H Z
-            FUQ 2003 D H Z
-            FUQ 2004 D H Z
-            FUQ 2005 D H Z
-            FUQ 2006 D H Z
-            FUQ 2007 D H Z
-            FUQ 2008 D H Z
-            FUQ 2009 D H Z
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

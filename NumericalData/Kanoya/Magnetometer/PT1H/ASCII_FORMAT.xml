@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Kanoya/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Kanoya Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Kanoya Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Kakioka Magnetic Observatory, Japan for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -242,62 +242,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            KNY 1958 D H Z
-            KNY 1959 D H Z
-            KNY 1960 D H Z
-            KNY 1961 D H Z
-            KNY 1962 D H Z
-            KNY 1963 D H Z
-            KNY 1964 D H Z
-            KNY 1965 D H Z
-            KNY 1966 D H Z
-            KNY 1967 D H Z
-            KNY 1968 D H Z
-            KNY 1969 D H Z
-            KNY 1970 D H Z
-            KNY 1971 D H Z
-            KNY 1972 D H Z
-            KNY 1973 D H Z
-            KNY 1974 D H Z
-            KNY 1975 D H Z
-            KNY 1976 D H Z F
-            KNY 1977 D H Z F
-            KNY 1978 D H Z F
-            KNY 1979 D H Z F
-            KNY 1980 D H Z F
-            KNY 1981 D H Z F
-            KNY 1982 D H Z F
-            KNY 1983 D H Z F
-            KNY 1984 D H Z F
-            KNY 1985 D H Z F
-            KNY 1986 D H Z F
-            KNY 1987 D H Z F
-            KNY 1988 D H Z F
-            KNY 1989 D H Z F
-            KNY 1990 D H Z F
-            KNY 1991 D H Z F
-            KNY 1992 D H Z F
-            KNY 1993 D H Z F
-            KNY 1994 D H Z F
-            KNY 1995 D H Z F
-            KNY 1996 D H Z F
-            KNY 1997 D H Z F
-            KNY 1998 D H Z F
-            KNY 1999 D H Z F
-            KNY 2000 D H Z F
-            KNY 2001 D H Z F
-            KNY 2002 D H Z F
-            KNY 2003 D H Z F
-            KNY 2004 D H Z F
-            KNY 2005 X Y Z F
-            KNY 2006 X Y Z F
-            KNY 2007 X Y Z F
-            KNY 2008 X Y Z F
-            KNY 2009 X Y Z F
-            KNY 2010 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

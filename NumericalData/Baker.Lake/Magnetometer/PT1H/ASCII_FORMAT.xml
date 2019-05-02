@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Baker.Lake/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Baker Lake Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Baker Lake Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Geological Survey of Canada for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,69 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            BLC 1951 D H Z
-            BLC 1952 D H Z
-            BLC 1953 D H Z
-            BLC 1954 H Z
-            BLC 1955 D H Z
-            BLC 1956 D H Z
-            BLC 1957 H Z
-            BLC 1958 H Z
-            BLC 1959 H Z
-            BLC 1960 X Y Z
-            BLC 1961 X Y Z
-            BLC 1962 X Y Z
-            BLC 1963 X Y Z
-            BLC 1964 X Y Z
-            BLC 1965 X Y Z
-            BLC 1966 X Y Z
-            BLC 1967 X Y Z
-            BLC 1968 X Y Z
-            BLC 1969 X Y Z
-            BLC 1970 X Y Z
-            BLC 1971 X Y Z
-            BLC 1972 X Y Z
-            BLC 1973 X Y Z
-            BLC 1974 X Y Z
-            BLC 1975 X Y Z
-            BLC 1976 X Y Z
-            BLC 1977 X Y Z
-            BLC 1978 X Y Z
-            BLC 1979 X Y Z
-            BLC 1980 X Y Z
-            BLC 1981 X Y Z
-            BLC 1982 X Y Z
-            BLC 1983 X Y Z
-            BLC 1984 X Y Z
-            BLC 1985 X Y Z
-            BLC 1986 X Y Z
-            BLC 1987 X Y Z
-            BLC 1988 X Y Z
-            BLC 1989 X Y Z
-            BLC 1990 X Y Z
-            BLC 1991 X Y Z F
-            BLC 1992 X Y Z F
-            BLC 1993 X Y Z F
-            BLC 1994 X Y Z F
-            BLC 1995 X Y Z F
-            BLC 1996 X Y Z F
-            BLC 1997 X Y Z F
-            BLC 1998 X Y Z F
-            BLC 1999 X Y Z F
-            BLC 2000 X Y Z F
-            BLC 2001 X Y Z F
-            BLC 2002 X Y Z F
-            BLC 2003 X Y Z F
-            BLC 2004 X Y Z F
-            BLC 2005 X Y Z F
-            BLC 2006 X Y Z F
-            BLC 2007 X Y Z F
-            BLC 2008 X Y Z F
-            BLC 2009 X Y Z F
-            BLC 2010 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

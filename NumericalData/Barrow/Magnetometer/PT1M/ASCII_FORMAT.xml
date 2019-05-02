@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Barrow/Magnetometer/PT1M/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Barrow Magnetometer 1-min Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Barrow Magnetometer data, 1-min time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: U.S. Geological Survey for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -247,45 +247,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            BRW 1975 D H Z F
-            BRW 1976 D H Z F
-            BRW 1977 D H Z F
-            BRW 1978 D H Z F
-            BRW 1979 D H Z F
-            BRW 1980 D H Z F
-            BRW 1981 D H Z F
-            BRW 1982 D H Z F
-            BRW 1983 D H Z F
-            BRW 1984 D H Z F
-            BRW 1985 D H Z F
-            BRW 1986 D H Z F
-            BRW 1987 D H Z F
-            BRW 1988 D H Z F
-            BRW 1989 D H Z F
-            BRW 1990 D H Z F
-            BRW 1991 D H Z F
-            BRW 1992 D H Z F
-            BRW 1993 D H Z F
-            BRW 1994 D H Z F
-            BRW 1995 D H Z F
-            BRW 1996 D H Z F
-            BRW 1997 D H Z F
-            BRW 1998 D H Z F
-            BRW 1999 D H Z F
-            BRW 2000 D H Z F
-            BRW 2001 D H Z F
-            BRW 2002 D H Z F
-            BRW 2003 D H Z F
-            BRW 2004 X Y Z F
-            BRW 2005 X Y Z F
-            BRW 2006 X Y Z F
-            BRW 2007 X Y Z F
-            BRW 2008 X Y Z F
-            BRW 2009 X Y Z F
-            BRW 2010 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

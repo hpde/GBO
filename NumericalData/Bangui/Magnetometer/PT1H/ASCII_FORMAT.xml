@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Bangui/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Bangui Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Bangui Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Bureau Central de Magnetisme, Bangui, Central African Republic for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -242,62 +242,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            BNG 1955 D H Z F
-            BNG 1956 D H Z F
-            BNG 1957 D H Z F
-            BNG 1958 D H Z F
-            BNG 1959 D H Z F
-            BNG 1960 D H Z F
-            BNG 1961 D H Z F
-            BNG 1962 D H Z F
-            BNG 1963 D H Z F
-            BNG 1964 D H Z F
-            BNG 1965 D H Z F
-            BNG 1966 D H Z F
-            BNG 1967 D H Z F
-            BNG 1968 D H Z F
-            BNG 1969 D H Z F
-            BNG 1970 D H Z F
-            BNG 1971 D H Z F
-            BNG 1972 D H Z F
-            BNG 1973 D H Z F
-            BNG 1974 D H Z F
-            BNG 1975 D H Z F
-            BNG 1976 D H Z F
-            BNG 1977 D H Z F
-            BNG 1978 D H Z F
-            BNG 1979 D H Z F
-            BNG 1980 D H Z F
-            BNG 1981 D H Z F
-            BNG 1982 D H Z F
-            BNG 1983 D H Z F
-            BNG 1984 D H Z F
-            BNG 1985 D H Z F
-            BNG 1986 D H Z F
-            BNG 1987 D H Z F
-            BNG 1988 D H Z F
-            BNG 1989 D H Z F
-            BNG 1990 D H Z F
-            BNG 1991 X Y Z
-            BNG 1992 D H Z
-            BNG 1993 X Y Z
-            BNG 1994 X Y Z
-            BNG 1995 X Y Z
-            BNG 1996 X Y Z F
-            BNG 1997 X Y Z F
-            BNG 1998 X Y Z F
-            BNG 1999 X Y Z F
-            BNG 2000 X Y Z F
-            BNG 2001 X Y Z F
-            BNG 2002 X Y Z F
-            BNG 2003 X Y Z F
-            BNG 2005 X Y Z F
-            BNG 2006 X Y Z F
-            BNG 2007 X Y Z F
-            BNG 2010 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

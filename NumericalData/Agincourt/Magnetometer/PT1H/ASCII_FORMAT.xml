@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Agincourt/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Agincourt Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Agincourt Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHZ. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Agincourt Observatory Director for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,47 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            AGN 1932 D H Z
-            AGN 1933 D H Z
-            AGN 1934 D H Z
-            AGN 1935 D H Z
-            AGN 1936 D H Z
-            AGN 1937 D H Z
-            AGN 1938 D H Z
-            AGN 1939 D H Z
-            AGN 1940 D H Z
-            AGN 1941 D H Z
-            AGN 1942 D H Z
-            AGN 1943 D H Z
-            AGN 1944 D H Z
-            AGN 1945 D H Z
-            AGN 1946 D H Z
-            AGN 1947 D H Z
-            AGN 1948 D H Z
-            AGN 1949 D H Z
-            AGN 1950 D H Z
-            AGN 1951 D H Z
-            AGN 1952 D H Z
-            AGN 1953 D H Z
-            AGN 1954 D H Z
-            AGN 1955 D H Z
-            AGN 1956 D H Z
-            AGN 1957 D H Z
-            AGN 1958 D H Z
-            AGN 1959 D H Z
-            AGN 1960 D H Z
-            AGN 1961 D H Z
-            AGN 1962 D H Z
-            AGN 1963 D H Z
-            AGN 1964 D H Z
-            AGN 1965 D H Z
-            AGN 1966 D H Z
-            AGN 1967 D H Z
-            AGN 1968 D H Z
-            AGN 1969 D H Z
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

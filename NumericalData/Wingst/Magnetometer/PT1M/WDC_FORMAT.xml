@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Wingst/Magnetometer/PT1M/WDC_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Wingst Magnetometer 1-min Data in WDC Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Wingst Magnetometer data, 1-min time resoluion, in WDC format. Magnetic Field Vector Element List: XYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for 1-min magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: GFZ, Adolf-Schmidt-Observatorium Niemegk for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -169,78 +169,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            WNG 1981 X Y Z F
-            WNG 1982 X Y Z F
-            WNG 1983 X Y Z F
-            WNG 1984 X Y Z F
-            WNG 1985 X Y Z F
-            WNG 1986 X Y Z F
-            WNG 1987 X Y Z F
-            WNG 1988 X Y Z F
-            WNG 1989 X Y Z F
-            WNG 1990 X Y Z F
-            WNG 1991 X Y Z F
-            WNG 1992 X Y Z F
-            WNG 1993 X Y Z F
-            WNG 1994 X Y Z F
-            WNG 1995 X Y Z F
-            WNG 1996 X Y Z F
-            WNG 1997 X Y Z F
-            WNG 1998 X Y Z F
-            WNG 1999 X Y Z F
-            WNG 2000 X Y Z F
-            WNG 2001 X Y Z F
-            WNG 2002 X Y Z F
-            WNG 2003 X Y Z F
-            WNG 2004 X Y Z F
-            WNG 2005 X Y Z F
-            WNG 2006 X Y Z F
-            WNG 2007 X Y Z F
-            WNG 2008 X Y Z F
-            WNG 2009 X Y Z F
-            WNG 2010 X Y Z F
-         </DataCoverage>
-      <WDC_Format>
-            Digital WDC Exchange Format for Observatory 1-minute Values
-            Magnetic data organized in 1-month files, with the information coded in ASCII.
-            Columns   Format   Description
-            1-6       I6       Observatory North Polar distance
-            0 to 180 from the north geographic pole in thousandths of a degree. Decimal
-            point is implied between positions 3 and 4.
-            7-12      I6       Observatory Geographic longitude
-            0 to 360 measured east from Greenwich in thousandths of a degree. Decimal
-            point is implied between positions 9 and 10.
-            13-14     I2       Year
-            Last 2 digits, 1996 = 96. See also column 26.
-            15-16     I2       Month (01-12)
-            17-18     I2       Day of month (01-31)
-            19        Al       Element (D, I, H, X, Y, Z, or F)
-            20-21     I2       Hour of day (00-23)
-            22-24     A3       Observatory
-            3-letter code.
-            25        A1       Arbitrary
-            26        I1       Century digit
-            Year = 2014, Century digit = 0.
-            Year = 1889, Century digit = 8.
-            Year = 1996, Century digit = 9 or a blank space for backwards compatibility.
-            27        A1       Preliminary or Definitive data
-            Preliminary = P , Definitive = D
-            28-34     A7       Blanks
-            35-394    60I6     60 6-digit 1-minute values for the given element for that data hour.  The values
-            are in tenth-minutes for D and I, and in nanoTeslas for the intensity elements.
-            395-400   I6       Hourly Mean
-            The average of the preceeding 60 1-minute values.
-            401-402            Record end marker
-            Two chars "cr"= 13 and "nl"= 10.
-            Each element value and the hourly mean is given in a 6-digit field including a minus sign for
-            negative values.
-            Missing data value spaces are padded with 999999.
-            The records are sorted according to observatory code, year, month, day, element.
-            For the intensity elements:  hourly value (nanoTeslas) = tab.base*100 + tab.value
-            For the angles D and I:      hourly value (Degrees) = tab.base + tab.value/600
-         </WDC_Format>
-    </Extension>
   </NumericalData>
 </Spase>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Coimbra/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Coimbra Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Coimbra Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHZ. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Instituto Geofysico, Universidade de Coimbra for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,33 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            COI 1964 D H Z
-            COI 1965 D H Z
-            COI 1979 D H Z
-            COI 1980 D H Z
-            COI 1981 D H Z
-            COI 1982 D H Z
-            COI 1983 D H Z
-            COI 1984 D H Z
-            COI 1985 D H Z
-            COI 1986 D H Z
-            COI 1987 D H Z
-            COI 1992 D H Z
-            COI 1993 D H Z
-            COI 1994 D H Z
-            COI 1995 D H Z
-            COI 1996 D H Z
-            COI 1997 D H Z
-            COI 1998 D H Z
-            COI 1999 D H Z
-            COI 2000 D H Z
-            COI 2001 D H Z
-            COI 2002 D H Z
-            COI 2003 D H Z
-            COI 2004 D H Z
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

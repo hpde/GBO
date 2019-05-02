@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Furstenfeldbruck/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Furstenfeldbruck Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Furstenfeldbruck Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: XYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Ludwig Maximilians University Munich for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,80 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            FUR 1940 X Y Z
-            FUR 1941 X Y Z
-            FUR 1942 X Y Z
-            FUR 1943 X Y Z
-            FUR 1944 X Y Z
-            FUR 1945 X Y Z
-            FUR 1946 X Y Z
-            FUR 1947 X Y Z
-            FUR 1948 X Y Z
-            FUR 1949 X Y Z
-            FUR 1950 X Y Z
-            FUR 1951 X Y Z
-            FUR 1952 X Y Z
-            FUR 1953 X Y Z
-            FUR 1954 X Y Z
-            FUR 1955 X Y Z
-            FUR 1956 X Y Z
-            FUR 1957 X Y Z
-            FUR 1958 X Y Z
-            FUR 1959 X Y Z
-            FUR 1960 X Y Z
-            FUR 1961 X Y Z
-            FUR 1962 X Y Z
-            FUR 1963 X Y Z
-            FUR 1964 X Y Z
-            FUR 1965 X Y Z
-            FUR 1966 X Y Z
-            FUR 1967 X Y Z
-            FUR 1968 X Y Z
-            FUR 1969 X Y Z
-            FUR 1970 X Y Z
-            FUR 1971 X Y Z
-            FUR 1972 X Y Z
-            FUR 1973 X Y Z
-            FUR 1974 X Y Z
-            FUR 1975 X Y Z
-            FUR 1976 X Y Z
-            FUR 1977 X Y Z
-            FUR 1978 X Y Z
-            FUR 1979 X Y Z
-            FUR 1980 X Y Z
-            FUR 1981 X Y Z
-            FUR 1982 X Y Z
-            FUR 1983 X Y Z
-            FUR 1984 X Y Z
-            FUR 1985 X Y Z
-            FUR 1986 X Y Z
-            FUR 1987 X Y Z
-            FUR 1988 X Y Z
-            FUR 1989 X Y Z
-            FUR 1990 X Y Z
-            FUR 1991 X Y Z
-            FUR 1992 X Y Z
-            FUR 1993 X Y Z
-            FUR 1994 X Y Z
-            FUR 1995 X Y Z F
-            FUR 1996 X Y Z F
-            FUR 1997 X Y Z F
-            FUR 1998 X Y Z F
-            FUR 1999 X Y Z F
-            FUR 2000 X Y Z F
-            FUR 2001 X Y Z F
-            FUR 2002 X Y Z F
-            FUR 2003 X Y Z F
-            FUR 2004 X Y Z F
-            FUR 2005 X Y Z F
-            FUR 2006 X Y Z F
-            FUR 2007 X Y Z F
-            FUR 2008 X Y Z F
-            FUR 2009 X Y Z F
-            FUR 2010 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

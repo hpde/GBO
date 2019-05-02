@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Meanook/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Meanook Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Meanook Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Geological Survey of Canada for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,88 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            MEA 1932 D H Z
-            MEA 1933 D H Z
-            MEA 1934 D H Z
-            MEA 1935 D H Z
-            MEA 1936 D H Z
-            MEA 1937 D H Z
-            MEA 1938 D H Z
-            MEA 1939 D H Z
-            MEA 1940 D H Z
-            MEA 1941 D H Z
-            MEA 1942 D H Z
-            MEA 1943 D H Z
-            MEA 1944 D H Z
-            MEA 1945 D H Z
-            MEA 1946 D H Z
-            MEA 1947 D H Z
-            MEA 1948 D H Z
-            MEA 1949 D H Z
-            MEA 1950 D H Z
-            MEA 1951 D H Z
-            MEA 1952 D H Z
-            MEA 1953 D H Z
-            MEA 1954 D H Z
-            MEA 1955 D H Z
-            MEA 1956 D H Z
-            MEA 1957 D H Z
-            MEA 1958 D H Z
-            MEA 1959 D H Z
-            MEA 1960 D H Z
-            MEA 1961 D H Z
-            MEA 1962 D H Z
-            MEA 1963 D H Z
-            MEA 1964 D H Z
-            MEA 1965 D H Z
-            MEA 1966 D H Z
-            MEA 1967 D H Z
-            MEA 1968 D H Z
-            MEA 1969 D H Z
-            MEA 1970 D H Z
-            MEA 1971 D H Z
-            MEA 1972 D H Z
-            MEA 1973 X Y Z
-            MEA 1974 X Y Z
-            MEA 1975 X Y Z
-            MEA 1976 X Y Z
-            MEA 1977 X Y Z
-            MEA 1978 X Y Z F
-            MEA 1979 X Y Z F
-            MEA 1980 X Y Z
-            MEA 1981 X Y Z
-            MEA 1982 X Y Z
-            MEA 1983 X Y Z
-            MEA 1984 X Y Z
-            MEA 1985 X Y Z
-            MEA 1986 X Y Z
-            MEA 1987 X Y Z
-            MEA 1988 X Y Z
-            MEA 1989 X Y Z
-            MEA 1990 X Y Z
-            MEA 1991 X Y Z F
-            MEA 1992 X Y Z F
-            MEA 1993 X Y Z F
-            MEA 1994 X Y Z F
-            MEA 1995 X Y Z F
-            MEA 1996 X Y Z F
-            MEA 1997 X Y Z F
-            MEA 1998 X Y Z F
-            MEA 1999 X Y Z F
-            MEA 2000 X Y Z F
-            MEA 2001 X Y Z F
-            MEA 2002 X Y Z F
-            MEA 2003 X Y Z F
-            MEA 2004 X Y Z F
-            MEA 2005 X Y Z F
-            MEA 2006 X Y Z F
-            MEA 2007 X Y Z F
-            MEA 2008 X Y Z F
-            MEA 2009 X Y Z F
-            MEA 2010 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

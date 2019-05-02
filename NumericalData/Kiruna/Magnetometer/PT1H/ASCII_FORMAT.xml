@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Kiruna/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Kiruna Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2018-05-25T16:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
       <Description>Kiruna Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: XYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Swedish Institute of Space Physics, Kiruna for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -237,29 +237,5 @@
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
-    <Extension>
-      <DataCoverage>
-            KIR 1962 X Y Z
-            KIR 1963 X Y Z
-            KIR 1964 X Y Z
-            KIR 1965 X Y Z
-            KIR 1966 X Y Z
-            KIR 1967 X Y Z
-            KIR 1970 X Y Z
-            KIR 1993 X Y Z
-            KIR 1994 X Y Z
-            KIR 2001 X Y Z F
-            KIR 2002 X Y Z F
-            KIR 2003 X Y Z F
-            KIR 2004 X Y Z F
-            KIR 2005 X Y Z F
-            KIR 2006 X Y Z F
-            KIR 2007 X Y Z F
-            KIR 2008 X Y Z F
-            KIR 2009 X Y Z F
-            KIR 2010 X Y Z F
-            KIR 2011 X Y Z F
-         </DataCoverage>
-    </Extension>
   </NumericalData>
 </Spase>

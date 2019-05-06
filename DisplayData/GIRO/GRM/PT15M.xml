@@ -5,50 +5,50 @@
     <ResourceID>spase://GBO/DisplayData/GIRO/GRM/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>GIRO Ionogram Plots</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Collection of GIRO ionogram images at University of Massachusetts Lowell, covering selected ionosonde stations and periods of time from 1987-01-01 to current time, including 42 real-time data feeds. Total number of GIRO locations represented is 68 as of February 14, 2012. Access to images is arranged via a webpage containing a browsable data availability table. GIRO ionograms are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (virtual range in vertical scale) and ionosonde frequency (horizontal scale) of the transmitted pulses. Echoes that can be used to derive remote vertical electron-density profiles, appear as discrete traces on ionograms. The ionogram traces are extracted (scaled) using image recognition software to obtain ionogram-derived characteristics of ionospheric plasma. Extracted traces and a table of major ionospheric characteristics are superimposed on the ionogram image</Description>
       <Acknowledgement>Users please acknowledge B. W. Reinisch of the University of Massachusetts Lowell for making these ionogram images available.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
         <Role>DataProducer</Role>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>GIRO (Global Ionospheric Radio Observatory) Home Page</Name>
         <URL>http://giro.uml.edu</URL>
         <Description>Access to real-time data and software tools</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/GIRO</AssociationID>
         <AssociationType>ObservedBy</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://VWO/DisplayData/GIRO/GRM.PT15M</PriorID>
       <PriorID>spase://VSPO/DisplayData/GIRO/GRM/PT15M</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UML/DIDBase</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>GIRO DIDBase Ionogram Browser</Name>
-        <URL>http://ulcar.uml.edu/DIDBase</URL>
+        <URL>https://ulcar.uml.edu/DIDBase/</URL>
         <Description>Repository of GIRO ionogram images at University of Massachusetts Lowell, containing browsable interface to retrieve individual images.</Description>
         <Language>en</Language>
-      </AccessURL>
+</AccessURL>
       <Format>PNG</Format>
       <Encoding>None</Encoding>
       <DataExtent>
         <Quantity>1500000000</Quantity>
         <Units>byte</Units>
         <Per>PT15M</Per>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Users please acknowledge B. W. Reinisch of the University of Massachusetts Lowell for making these ionogram images available.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderProcessingLevel>Level 2, ionogram data processed for extraction of ionospheric characteristics. All images produced by ShowIonogram servlet from raw and processed data.</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/GIRO/Ionosonde</InstrumentID>
@@ -58,10 +58,10 @@
         <StartDate>1987-01-01T00:00:05Z</StartDate>
         <RelativeStopDate>PT5M</RelativeStopDate>
         <Note>Cadence of ionogram measurements may vary depending on the scheduling requirements at GIRO sites; 15 minutes is nominal cadence</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT15M</Cadence>
       <Exposure>PT1M</Exposure>
-    </TemporalDescription>
+</TemporalDescription>
     <SpectralRange>RadioFrequency</SpectralRange>
     <DisplayCadence>PT15M</DisplayCadence>
     <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
@@ -88,8 +88,8 @@
           <Low>500</Low>
           <High>30000</High>
           <Units>kHz</Units>
-        </FrequencyRange>
-      </Wave>
-    </Parameter>
-  </DisplayData>
+</FrequencyRange>
+</Wave>
+</Parameter>
+</DisplayData>
 </Spase>

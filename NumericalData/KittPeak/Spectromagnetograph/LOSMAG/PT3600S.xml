@@ -5,29 +5,29 @@
     <ResourceID>spase://GBO/NumericalData/KittPeak/Spectromagnetograph/LOSMAG/PT3600S</ResourceID>
     <ResourceHeader>
       <ResourceName>KPVT SPMG LOS_magnetic field data</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Kitt Peak Vacuum Telescope (KPVT) spectromagnetograph (SPMG) line-of-sight solar magnetic field data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.W.Harvey</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/NumericalData/P_KPVT_HDR_SPMG_LOSMAG</PriorID>
       <PriorID>spase://VSPO/NumericalData/KittPeak/Spectromagnetograph/LOSMAG/PT3600S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/KP</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>via ftp from Kitt Peak</Name>
-        <URL>https://diglib.nso.edu/ftp.html</URL>
-      </AccessURL>
+        <URL>https://diglib-dev.nso.edu/ftp.html</URL>
+</AccessURL>
       <AccessURL>
         <Name>Virtual Solar Observatory</Name>
         <URL>https://www.virtualsolar.org/</URL>
-      </AccessURL>
+</AccessURL>
       <Format>FITS</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/KittPeak/Spectromagnetograph</InstrumentID>
     <MeasurementType>Magnetogram</MeasurementType>
@@ -35,10 +35,10 @@
       <TimeSpan>
         <StartDate>1992-04-21T00:00:00</StartDate>
         <StopDate>2003-09-21T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT3600S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Sun</ObservedRegion>
     <ObservedRegion>Sun.Photosphere</ObservedRegion>
-  </NumericalData>
+</NumericalData>
 </Spase>

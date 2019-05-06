@@ -5,49 +5,49 @@
     <ResourceID>spase://GBO/NumericalData/Gnangara/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Gnangara Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2019-05-01T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Gnangara Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Australian Geological Survey Organisation for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Liejun.Wang</PersonID>
         <Role>GeneralContact</Role>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The Geomagnetic Data Master Catalog at the WDC for Geomagnetism, Edinburgh</Name>
         <URL>http://www.wdc.bgs.ac.uk/catalog/intro.html</URL>
         <Description>Web site for access to magnetometer data hosted by the World Data Center for Geomagnetism, Edinburgh</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://GBO/NumericalData/Gnangara/Magnetometer/PT1H/WDC_FORMAT</AssociationID>
         <AssociationType>DerivedFrom</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://VMO/NumericalData/Gnangara/Magnetometer/PT1H/ASCII</PriorID>
       <PriorID>spase://VMO/NumericalData/Gnangara/Magnetometer/PT1H/ASCII_FORMAT</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>The UCLA VMO Data Repository</Name>
-        <URL>http://vmo.igpp.ucla.edu/data1/WDC/MAGNETOGRAM/Gnangara/PT1H/TXT</URL>
+        <URL>http://vmo.igpp.ucla.edu/data1/WDC/MAGNETOGRAM/Gnangara/PT1H/TXT/</URL>
         <Description>The Virtual Magnetospheric Observatory (VMO) Data Repository hosted by the Institute of Geophysics and Planetary Physics (IGPP) at the University of California, Los Angeles (UCLA).</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Encoding>GZIP</Encoding>
       <DataExtent>
         <Quantity>825696</Quantity>
         <Units>bytes</Units>
         <Per>P1Y</Per>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Please thank the British Geological Survey, World Data Center, Edinburgh for use of data from the WDC Geomagnetic Data Master Catalog. The WDC to ASCII translation was performed at UCLA and the derived ASCII formatted data are available via the UCLA VMO data repository.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Ground/Gnangara/Magnetometer</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
@@ -56,9 +56,9 @@
         <StartDate>1957-07-01T00:00:00.000</StartDate>
         <StopDate>2010-12-31T23:00:00.000</StopDate>
         <Note>Some data gaps may be present. If a gap is present at the beginning or end of the file, the time span start and stop dates could be inaccurate as they are assigned assuming an absence of such gaps.</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT1H</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Surface</ObservedRegion>
     <Keyword>ground station</Keyword>
     <Keyword>magnetometer</Keyword>
@@ -81,32 +81,32 @@
           <Name>Year</Name>
           <Index>1</Index>
           <ParameterKey>Column_1</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Month</Name>
           <Index>2</Index>
           <ParameterKey>Column_2</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Day</Name>
           <Index>3</Index>
           <ParameterKey>Column_3</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Hour</Name>
           <Index>4</Index>
           <ParameterKey>Column_4</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Minute</Name>
           <Index>5</Index>
           <ParameterKey>Column_5</ParameterKey>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field DHZ</Name>
       <Description>Gnangara Magnetic Field in DHZ Coordinates</Description>
@@ -114,7 +114,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cylindrical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Description>Gnangara Magnetic Field Data in DHZ Coordinates. The DHZ data columns are numbers (6,8,11) in the flat file.</Description>
@@ -128,7 +128,7 @@
           <ValidMin>-180.0</ValidMin>
           <ValidMax>180.0</ValidMax>
           <FillValue>-99999.999</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>H</Name>
           <Qualifier>Projection.IJ</Qualifier>
@@ -139,7 +139,7 @@
           <ValidMin>-70000</ValidMin>
           <ValidMax>70000</ValidMax>
           <FillValue>-99999.999</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>Z</Name>
           <Qualifier>Component.K</Qualifier>
@@ -150,13 +150,13 @@
           <ValidMin>-70000</ValidMin>
           <ValidMax>70000</ValidMax>
           <FillValue>-99999.999</FillValue>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Gnangara Magnetic Field XYZ</Name>
       <Description>Gnangara Magnetic Field in XYZ coordinates</Description>
@@ -164,7 +164,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Description>Gnangara Magnetic Field Data in XYZ Coordinates. The XYZ data columns are numbers (9,10,11) in the flat file.</Description>
@@ -178,7 +178,7 @@
           <ValidMin>-70000</ValidMin>
           <ValidMax>70000</ValidMax>
           <FillValue>-99999.999</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>Y</Name>
           <Qualifier>Component.J</Qualifier>
@@ -189,7 +189,7 @@
           <ValidMin>-70000</ValidMin>
           <ValidMax>70000</ValidMax>
           <FillValue>-99999.999</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>Z</Name>
           <Qualifier>Component.K</Qualifier>
@@ -200,13 +200,13 @@
           <ValidMin>-70000</ValidMin>
           <ValidMax>70000</ValidMax>
           <FillValue>-99999.999</FillValue>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Inclination</Name>
       <ParameterKey>Column_7</ParameterKey>
@@ -220,8 +220,8 @@
       <Field>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Magnitude</Name>
       <ParameterKey>Column_12</ParameterKey>
@@ -235,7 +235,7 @@
       <Field>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-  </NumericalData>
+</Field>
+</Parameter>
+</NumericalData>
 </Spase>

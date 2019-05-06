@@ -6,50 +6,50 @@
     <ResourceID>spase://GBO/DisplayData/GIRO/SKYMAP/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>GIRO Doppler Skymap Plots</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Collection of GIRO Doppler skymap images at University of Massachusetts Lowell, covering selected ionosonde stations and periods of time from 1993-07-20 to current time, including 28 real-time feeds. Total number of GIRO locations represented is 50 as of February 14, 2012. Access to images is arranged via a webpage containing a browsable data availability table. GIRO skymaps are visualized by plotting received echoes in the polar coordinate system using echo zenith and azimuth information. Color scale is used to represent Doppler Velocity of the signal reflection area in the ionosphere. Additionally, observed echoes on the skymap are used to derived zenith and azimuth of the ionospheric tilt, as well as vertical and horizontal components of the bulk ionospheric motion across the sounder location.</Description>
       <Acknowledgement>Users please acknowledge B. W. Reinisch of the University of Massachusetts Lowell for making these ionogram images available.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
         <Role>DataProducer</Role>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>GIRO (Global Ionospheric Radio Observatory) Home Page</Name>
         <URL>http://giro.uml.edu</URL>
         <Description>Access to real-time data and software tools</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/GIRO</AssociationID>
         <AssociationType>ObservedBy</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://VWO/DisplayData/GIRO/SKYMAP.PT15M</PriorID>
       <PriorID>spase://VSPO/DisplayData/GIRO/SKYMAP/PT15M</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UML/DriftBase</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>GIRO DriftBase Skymap Browser</Name>
-        <URL>http://ulcar.uml.edu/DriftBase</URL>
+        <URL>https://ulcar.uml.edu/DriftBase/</URL>
         <Description>Repository of GIRO skymap images at University of Massachusetts Lowell, containing browsable interface to retrieve individual images.</Description>
         <Language>en</Language>
-      </AccessURL>
+</AccessURL>
       <Format>PNG</Format>
       <Encoding>None</Encoding>
       <DataExtent>
         <Quantity>700000000</Quantity>
         <Units>byte</Units>
         <Per>PT15M</Per>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Users please acknowledge B. W. Reinisch of the University of Massachusetts Lowell for making these skymap images available.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderProcessingLevel>Level 2, Doppler skymap data processed to calculate ionospheric tilt and bulk plasma drift velocity. All images produced by ShowSkymap servlet from raw and processed data.</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/GIRO/Ionosonde</InstrumentID>
@@ -59,15 +59,15 @@
         <StartDate>1987-01-01T00:00:05Z</StartDate>
         <RelativeStopDate>PT5M</RelativeStopDate>
         <Note>Cadence of skymap measurements may vary depending on the scheduling requirements at GIRO sites; 15 minutes is nominal cadence</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT15M</Cadence>
       <Exposure>PT1M</Exposure>
-    </TemporalDescription>
+</TemporalDescription>
     <SpectralRange>RadioFrequency</SpectralRange>
     <DisplayCadence>PT15M</DisplayCadence>
     <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
     <Caveats>
-      </Caveats>
+</Caveats>
     <!-- Keywords pertaining to the data presentation -->
     <Keyword>Skymap</Keyword>
     <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
@@ -89,8 +89,8 @@
           <Low>500</Low>
           <High>30000</High>
           <Units>kHz</Units>
-        </FrequencyRange>
-      </Wave>
-    </Parameter>
-  </DisplayData>
+</FrequencyRange>
+</Wave>
+</Parameter>
+</DisplayData>
 </Spase>

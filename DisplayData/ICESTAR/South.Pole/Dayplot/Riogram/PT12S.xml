@@ -6,40 +6,40 @@
     <ResourceHeader>
       <ResourceName>ICESTAR South Pole Riogram Dayplots</ResourceName>
       <AlternateName>South Pole ICESTAR.Dayplot.Riogram Dayplots</AlternateName>
-      <ReleaseDate>2018-06-07T17:06:45Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>South Pole ICESTAR.Dayplot.Riogram Dayplots</Description>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg and Allan T. Weatherwax whenever ICESTAR generated dayplots of this format are used in publication.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VMO/DisplayData/ICESTAR/South.Pole/ICESTAR.Dayplot.Riogram/PT12S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ICESTAR</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>ICESTAR Data Set URL Address</Name>
-        <URL>http://vmo.igpp.ucla.edu/data1/ICESTAR</URL>
+        <URL>http://vmo.igpp.ucla.edu/data1/ICESTAR/</URL>
         <Description>URL for ICESTAR data hosted on the UCLA VMO Data Repository</Description>
-      </AccessURL>
+</AccessURL>
       <Format>GIF</Format>
       <Encoding>None</Encoding>
       <DataExtent>
         <Quantity>400000</Quantity>
         <Units>bytes</Units>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to South Pole data resources.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/ICESTAR/South.Pole/Riometer</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
@@ -48,10 +48,10 @@
         <StartDate>1993-01-17T00:00:00.000</StartDate>
         <StopDate>2003-12-17T23:59:50.000</StopDate>
         <Note>Some data gaps may be present.  If a gap is present at the beginning or end of the file, the time span start and end dates could be inaccurate as they are assigned assuming an absence of such gaps.</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT12S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <DisplayCadence>P1D</DisplayCadence>
     <ObservedRegion>Earth.Surface</ObservedRegion>
-  </DisplayData>
+</DisplayData>
 </Spase>

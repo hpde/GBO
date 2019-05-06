@@ -6,40 +6,40 @@
     <ResourceHeader>
       <ResourceName>ICESTAR AGO P2 Fluxgate Dayplots</ResourceName>
       <AlternateName>AGO P2 ICESTAR.Dayplot.Fluxgate Dayplots</AlternateName>
-      <ReleaseDate>2018-06-07T17:06:45Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>AGO P2 ICESTAR.Dayplot.Fluxgate Dayplots</Description>
       <Acknowledgement>Please acknowledge Louis J. Lanzerotti whenever ICESTAR generated dayplots of this format are used in publication.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Association>
         <AssociationID>spase://SMWG/Observatory/ICESTAR/AGO.P2</AssociationID>
         <AssociationType>ObservedBy</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://VMO/DisplayData/ICESTAR/AGO.P2/ICESTAR.Dayplot.Fluxgate/PT10S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ICESTAR</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>ICESTAR Data Set URL Address</Name>
-        <URL>http://vmo.igpp.ucla.edu/data1/ICESTAR</URL>
+        <URL>http://vmo.igpp.ucla.edu/data1/ICESTAR/</URL>
         <Description>URL for ICESTAR data hosted on the UCLA VMO Data Repository</Description>
-      </AccessURL>
+</AccessURL>
       <Format>GIF</Format>
       <Encoding>None</Encoding>
       <DataExtent>
         <Quantity>40000</Quantity>
         <Units>bytes</Units>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to AGO P2 data resources.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/ICESTAR/AGO.P2/Magnetometer</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
@@ -48,10 +48,10 @@
         <StartDate>2002-12-28T00:00:00.000</StartDate>
         <StopDate>2003-12-17T23:59:50.000</StopDate>
         <Note>Some data gaps may be present.  If a gap is present at the beginning or end of the file, the time span start and end dates could be inaccurate as they are assigned assuming an absence of such gaps.</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT10S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <DisplayCadence>P1D</DisplayCadence>
     <ObservedRegion>Earth.Surface</ObservedRegion>
-  </DisplayData>
+</DisplayData>
 </Spase>

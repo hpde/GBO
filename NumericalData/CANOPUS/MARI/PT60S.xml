@@ -5,35 +5,35 @@
     <ResourceID>spase://GBO/NumericalData/CANOPUS/MARI/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS MARI Key Parameters</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>CANOPUS MARI (Magnetometer and Riometer Array) Magnetometer Key Parameters - "Local AE Index" Upper and Lower Bounds</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gordon.Rostoker</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/NumericalData/P_CANOPUS_HDR_MARI_60S</PriorID>
       <PriorID>spase://VSPO/NumericalData/CANOPUS/MARI/PT60S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/canopus//mari_mag</URL>
-      </AccessURL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/canopus//mari_mag/</URL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/canopus//mari_mag</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/canopus//mari_mag/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=CN_K0_MARI&amp;index=sp_phys</URL>
         <ProductKey>CN_K0_MARI</ProductKey>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/CANOPUS/MARI</InstrumentID>
     <MeasurementType>ActivityIndex</MeasurementType>
@@ -41,9 +41,9 @@
       <TimeSpan>
         <StartDate>1992-09-01T00:00:00</StartDate>
         <StopDate>1999-12-30T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT60S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Surface</ObservedRegion>
-  </NumericalData>
+</NumericalData>
 </Spase>

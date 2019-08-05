@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/CANOPUS/BARS/KeyParameter/K0/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS Bistatic Auroral Radar System (BARS), Key Parameters, K0, 1 min Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>North and East Velocity Components at Eccentric Dipole Field Line, EDFL, 336.5&#xB0; Longitude from 64.2&#xB0; to 67.0&#xB0; EDFL Latitude. References: Rostoker, G., Samson, J.C., Creutzberg, F., Hughes, T.J., McDiarmid, D.R., McNamara, A.G., Vallance Jones, A., Wallis, D.D., Cogger, L.L., CANOPUS - A Ground Based Instrument Array for Remote Sensing the High Latitude Ionosphere during the ISTP/GGS Program, Space Science Reviews, 71, Issue 1-4, 743-760, 1995.</Description>
       <Acknowledgement>J.C. Samson, E.F. Donovan</Acknowledgement>
       <Contact>
@@ -37,7 +37,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/canopus/bars/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/canopus/bars/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

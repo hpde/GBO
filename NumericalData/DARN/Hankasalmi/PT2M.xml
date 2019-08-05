@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/DARN/Hankasalmi/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>SuperDARN Hankasalmi (HAN), Ionospheric Convection Velocity</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Super Dual Auroral Radar Network, SuperDARN, Hankasalmi, Key Parameters Data, Ionospheric Convection North and East Velocities</Description>
       <Acknowledgement>R. Greenwald</Acknowledgement>
       <Contact>
@@ -58,7 +58,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/darn/hank/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/darn/hank/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

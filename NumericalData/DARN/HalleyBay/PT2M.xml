@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/DARN/HalleyBay/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>SuperDARN Polar Anglo-American Conjugate Experiment (PACE), Ionospheric Convection Velocity</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-08-08T15:43:56Z</ReleaseDate>
       <Description>Super Dual Auroral Radar Network, SuperDARN, Halley Station, Polar Anglo-American Conjugate Experiment, PACE, Key Parameters Data, Ionospheric Convection North and East Velocities</Description>
       <Acknowledgement>R. Greenwald</Acknowledgement>
       <Contact>
@@ -42,7 +42,7 @@
       </InformationURL>
       <InformationURL>
         <Name>FMI, STARE Web Site</Name>
-        <URL>http://space.fmi.fi/PLASMA/RADAR/STARE/index.html</URL>
+        <URL>https://space.fmi.fi/PLASMA/RADAR/STARE/index.html</URL>
         <Description>Finnish Meteorological Institute, FMI, Scandinavian Twin Auroral Radar Experiment, STARE, Informational Web Site</Description>
       </InformationURL>
       <InformationURL>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-  <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/Contwoyto/Magnetometer/PT5.00S</ResourceID>
     <ResourceHeader>
       <ResourceName>CARISMA Ground Magnetometer Data from Canadian SSDP</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>Plots and listings of ground magnetometer data from the CARISMA (Canadian array for Realtime Investigations of Magnetic Activity) segment of the CGSM (Canadian GeoSpace Monitoring) program, (formerly CANOPUS.) through the Canadian Space Science Data Portal (SSDP).  13 stations.  5-sec resolution through CANOPUS era (i.e., through March, 2005) and 1-sec (1 Hz) thereafter</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.Rankin</PersonID>
@@ -28,11 +28,11 @@
 </AccessURL>
       <AccessURL>
         <Name>CARISMA site</Name>
-        <URL>http://www.carisma.ca</URL>
+        <URL>https://www.carisma.ca</URL>
 </AccessURL>
       <AccessURL>
         <Name>Magnetometer data from CSSDP</Name>
-        <URL>http://portal.cssdp.ca/ssdp/app/static/data_providers/cgsm/carisma.html</URL>
+        <URL>https://www.carisma.ca/carisma-data-repository</URL>
 </AccessURL>
       <Format>Text</Format>
 </AccessInformation>

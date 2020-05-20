@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/SAMBA/Antofagasta/Magnetometer/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>SAMBA Antofagasta Ground Magnetic Field Data at 1s time resolution.</ResourceName>
       <AlternateName>Antofagasta Ground Magnetic Field Data 1s Data.</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-05-20T16:19:21Z</ReleaseDate>
       <Description>Ground Magnetic Field Data data from Antofagasta at 1s time resolution.</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Department of Atmospheric Sciences (7127 Math Sciences Building, University of California, Los Angeles, Box 951565, CA, 90095-1565 USA) for use of data from the Antofagasta Magnetometer instrument.</Acknowledgement>
       <Contact>
@@ -79,7 +79,7 @@
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Department of Atmospheric Sciences (7127 Math Sciences Building, University of California, Los Angeles, Box 951565, CA, 90095-1565 USA) for use of data from the Antofagasta Magnetometer instrument.  If data downloaded from the VMOU Data Repository are used in publication kindly acknowledge the Virtual Magnetospheric Observatory, Institute of Geophysics and Planetary Physics, University of California, Los Angeles for providing access to the data.</Acknowledgement>
 </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/SAMBA/Antofagasta/Magnetometer</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Ground/SAMBA/Antofagasta/Magnetometer</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

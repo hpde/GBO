@@ -1,7 +1,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <DisplayData>
-  <ResourceID>spase://GBO/DisplayData/Radio.JOVE/HNRAO/TFD-SDR/PT8H</ResourceID>
+  <ResourceID>spase://GBO/DisplayData/Radio.JOVE/HNRAO/TFD-SDRPlay/PT8H</ResourceID>
   <ResourceHeader>
    <ResourceName>16-24 MHz Dynamic Spectrograms from HNRAO TFD+SDRPlay Spectrograph</ResourceName>
    <ReleaseDate>2019-04-26T12:49:33</ReleaseDate>
@@ -24,7 +24,7 @@
    </AccessURL>
    <Format>JPEG</Format>
   </AccessInformation>
-  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/TFD-SDR</InstrumentID>
+  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/TFD-SDRPlay</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <SpectralRange>RadioFrequency</SpectralRange>
   <DisplayCadence>PT8H</DisplayCadence>

@@ -1,7 +1,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <NumericalData>
-  <ResourceID>spase://GBO/NumericalData/Radio.JOVE/HNRAO/TFD-SDR/PT1.2S</ResourceID>
+  <ResourceID>spase://GBO/NumericalData/Radio.JOVE/HNRAO/TFD-SDRPlay/PT1.2S</ResourceID>
   <ResourceHeader>
    <ResourceName>Radio JOVE HNRAO Terminated Folded Dipole and SDRPlay
    16-24 MHz Data</ResourceName>
@@ -70,7 +70,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
    </AccessURL>
    <Format>Binary</Format>
   </AccessInformation>
-  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/TFD-SDR</InstrumentID>
+  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/TFD-SDRPlay</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <SpectralRange>RadioFrequency</SpectralRange>
   <Parameter>

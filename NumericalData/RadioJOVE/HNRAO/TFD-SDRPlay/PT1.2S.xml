@@ -1,31 +1,29 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <NumericalData>
-  <ResourceID>spase://GBO/NumericalData/Radio.JOVE/HNRAO/LWA-FSX2/PT0.15S</ResourceID>
+  <ResourceID>spase://GBO/NumericalData/RadioJOVE/HNRAO/TFD-SDRPlay/PT1.2S</ResourceID>
   <ResourceHeader>
-   <ResourceName>Radio JOVE HNRAO LWA and FSX-2
-   15-30 MHZ Data</ResourceName>
+   <ResourceName>RadioJOVE HNRAO Terminated Folded Dipole and SDRPlay
+   16-24 MHz Data</ResourceName>
    <ReleaseDate>2019-04-26T15:40:25</ReleaseDate>
-   <Description>Radio JOVE Multiple Frequency Data Product. This data
+   <Description>RadioJOVE Multiple Frequency Data Product. This data
 set consists of observations made at the Hawk's Nest Radio Astronomy
-   Observatory (HNRAO) using a Long Wavelength Array (LWA) 4 phased crossed
-   dipoles square array and an FSX-2 10 bit single polarization spectrograph. These data are
-   generated using the Radio Sky Spectrograph software. The data set consists
-   of 1 channel of data. All submitted data appear to identify this
-   channel as RCP but the polarization is selectable as either RCP or LCP.
+   Observatory (HNRAO) using a Terminated Folded Dipole and an SDRPlay
+   receiver.  These data are generated using the Radio Sky Spectrograph software. The data set consists
+   of one channel of data. A RCP and a LCP data product are produced.
 
    These data may include observations of Solar Radio Bursts, Jupiter
    decametric radio emission, or Galactic Background radio emission.
    
    The Radio-Sky Spectrograph produced datafiles consist of a fixed length header and a variable
-   length note. The data portion of the file for two channel data
+   length note. The data portion of the file for single channel data
    consists of an 8 byte timestamp using the VisualBasic 6 date format
-   (days since 1 Jan 1900) followed by two 8 byte data values (Channel 1 followed by Channel 2),
+   (days since 1 Jan 1900) followed by one 8 byte data values 
    this pattern repeats until the end of file. More details can be
    found in the Data File Structure document on the Radio-SkyPipe help
    page (see Information URL).
 
-   These data are submitted to the Radio JOVE Archive and to the
+   These data are submitted to the RadioJOVE Archive and to the
    PDS/PPI archive at UCLA.
    </Description>
    <Contact>
@@ -59,8 +57,8 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
    <AccessURL>
-    <Name>Radio JOVE Data Archive</Name>
-    <URL>http://radiojove.org/archive/data</URL>
+    <Name>hRadio JOVE Data Archive</Name>
+    <URL>http://radiojove.org/archive.html</URL>
    </AccessURL>
    <Format>Binary</Format>
   </AccessInformation>
@@ -72,28 +70,28 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
    </AccessURL>
    <Format>Binary</Format>
   </AccessInformation>
-  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/LWA-FSX2</InstrumentID>
+  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/TFD-SDRPlay</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <SpectralRange>RadioFrequency</SpectralRange>
   <Parameter>
    <Name>Time</Name>
    <Description>The time array of the data. The time resolution is
-   variable but is typically set at about 0.15 seconds </Description>
+   variable but is typically set at about 1.2 seconds </Description>
    <Units>Days since 1 January 1900</Units>
    <Support>
     <SupportQuantity>Temporal</SupportQuantity>
    </Support>
   </Parameter>
   <Parameter>
-   <Name>Channel 1 Data - Right Circular Polarization (typically)</Name>
+   <Name>Channel 1 Data - Right or Left Circular Polarization</Name>
    <Units>KiloKelvins</Units>
    <Wave>
     <WaveType>Electromagnetic</WaveType>
     <WaveQuantity>ACElectricField</WaveQuantity>
     <FrequencyRange>
      <SpectralRange>RadioFrequency</SpectralRange>
-     <Low>15</Low>
-     <High>30</High>
+     <Low>16</Low>
+     <High>24</High>
      <Units>MHz</Units>
     </FrequencyRange>
    </Wave>

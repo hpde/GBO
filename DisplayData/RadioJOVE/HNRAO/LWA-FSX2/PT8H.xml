@@ -1,7 +1,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <DisplayData>
-  <ResourceID>spase://GBO/DisplayData/Radio.JOVE/HNRAO/LWA-FSX2/PT8H</ResourceID>
+  <ResourceID>spase://GBO/DisplayData/RadioJOVE/HNRAO/LWA-FSX2/PT8H</ResourceID>
   <ResourceHeader>
    <ResourceName>15-30 MHz Dynamic Spectrograms from HNRAO LWA+FSX2 Spectrograph</ResourceName>
    <ReleaseDate>2019-04-26T12:49:33</ReleaseDate>
@@ -18,8 +18,8 @@
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
    <AccessURL>
-    <Name>Radio JOVE Data Archive</Name>
-    <URL>http://radiojove.org/archive/data</URL>
+    <Name>hRadio JOVE Data Archive</Name>
+    <URL>http://radiojove.org/archive.html</URL>
    </AccessURL>
    <Format>JPEG</Format>
   </AccessInformation>

@@ -1,12 +1,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <NumericalData>
-  <ResourceID>spase://GBO/NumericalData/Radio.JOVE/HNRAO/TFD-FSX8S/PT0.3S</ResourceID>
+  <ResourceID>spase://GBO/NumericalData/RadioJOVE/HNRAO/TFD-FSX8S/PT0.3S</ResourceID>
   <ResourceHeader>
-   <ResourceName>Radio JOVE HNRAO Terminated Folded Dipole and FSX-8S
+   <ResourceName>RadioJOVE HNRAO Terminated Folded Dipole and FSX-8S
    15-30 MHZ Data</ResourceName>
    <ReleaseDate>2019-04-26T15:40:25</ReleaseDate>
-   <Description>Radio JOVE Multiple Frequency Data Product. This data
+   <Description>RadioJOVE Multiple Frequency Data Product. This data
 set consists of observations made at the Hawk's Nest Radio Astronomy
    Observatory (HNRAO) using a Terminated Folded Dipole and an FSX-8S
    12 bit switching dual polarization spectrograph. These data are
@@ -25,7 +25,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
    found in the Data File Structure document on the Radio-SkyPipe help
    page (see Information URL).
 
-   These data are submitted to the Radio JOVE Archive and to the
+   These data are submitted to the RadioJOVE Archive and to the
    PDS/PPI archive at UCLA.
    </Description>
    <Contact>
@@ -59,8 +59,8 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
    <AccessURL>
-    <Name>Radio JOVE Data Archive</Name>
-    <URL>http://radiojove.org/archive/data</URL>
+    <Name>hRadio JOVE Data Archive</Name>
+    <URL>http://radiojove.org/archive.html</URL>
    </AccessURL>
    <Format>Binary</Format>
   </AccessInformation>

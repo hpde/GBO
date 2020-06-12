@@ -3,7 +3,7 @@
  <DisplayData>
   <ResourceID>spase://GBO/DisplayData/RadioJOVE/HNRAO/TFD-RJ/PT24H</ResourceID>
   <ResourceHeader>
-   <ResourceName>20.1 MHz Stripcharts from HNRAO TFD+JOVE receiver</ResourceName>
+   <ResourceName>Radio JOVE HNRAO TFD+JOVE receiver 20.1 MHz Stripcharts</ResourceName>
    <ReleaseDate>2019-04-18T12:49:33</ReleaseDate>
    <Description>Stripchart plots from output of the HNRAO Terminated
    Folded Dipole and JOVE receiver operating at 20.1 MHz. The plots
@@ -23,7 +23,7 @@
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
    <AccessURL>
-    <Name>hRadio JOVE Data Archive</Name>
+    <Name>Radio JOVE Data Archive</Name>
     <URL>http://radiojove.org/archive.html</URL>
    </AccessURL>
    <Format>JPEG</Format>

@@ -3,7 +3,7 @@
  <NumericalData>
   <ResourceID>spase://GBO/NumericalData/RadioJOVE/HNRAO/DualDipole-RJ/PT0.1S</ResourceID>
   <ResourceHeader>
-   <ResourceName>RadioJOVE HNRAO Dual Dipole Array and Radio Jove
+   <ResourceName>Radio JOVE HNRAO Dual Dipole Array and Radio Jove
    20.1 MHZ Data</ResourceName>
    <ReleaseDate>2019-04-12T15:40:25</ReleaseDate>
    <Description>RadioJOVE Single Frequency Data Product. This data
@@ -50,7 +50,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
    <AccessURL>
-    <Name>hRadio JOVE Data Archive</Name>
+    <Name>Radio JOVE Data Archive</Name>
     <URL>http://radiojove.org/archive.html</URL>
    </AccessURL>
    <Format>Binary</Format>

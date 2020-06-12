@@ -3,7 +3,7 @@
  <NumericalData>
   <ResourceID>spase://GBO/NumericalData/RadioJOVE/HNRAO/LWA-FSX2/PT0.15S</ResourceID>
   <ResourceHeader>
-   <ResourceName>RadioJOVE HNRAO LWA and FSX-2
+   <ResourceName>Radio JOVE HNRAO LWA and FSX-2
    15-30 MHZ Data</ResourceName>
    <ReleaseDate>2019-04-26T15:40:25</ReleaseDate>
    <Description>RadioJOVE Multiple Frequency Data Product. This data
@@ -59,7 +59,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
    <AccessURL>
-    <Name>hRadio JOVE Data Archive</Name>
+    <Name>Radio JOVE Data Archive</Name>
     <URL>http://radiojove.org/archive.html</URL>
    </AccessURL>
    <Format>Binary</Format>

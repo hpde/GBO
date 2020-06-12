@@ -3,7 +3,7 @@
  <DisplayData>
   <ResourceID>spase://GBO/DisplayData/RadioJOVE/HNRAO/LWA-FSX2/PT8H</ResourceID>
   <ResourceHeader>
-   <ResourceName>15-30 MHz Dynamic Spectrograms from HNRAO LWA+FSX2 Spectrograph</ResourceName>
+   <ResourceName>Radio JOVE HNRAO LWA+FSX2 Spectrograph 15-30 MHz Dynamic Spectrograms</ResourceName>
    <ReleaseDate>2019-04-26T12:49:33</ReleaseDate>
    <Description>Dynamic Spectrogram plots from output of the HNRAO
    LWA-type 4 phase crossed dipoles square array and FSX2 Spectrograph operating from 15-30 MHz. The plots
@@ -18,7 +18,7 @@
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
    <AccessURL>
-    <Name>hRadio JOVE Data Archive</Name>
+    <Name>Radio JOVE Data Archive</Name>
     <URL>http://radiojove.org/archive.html</URL>
    </AccessURL>
    <Format>JPEG</Format>

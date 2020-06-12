@@ -3,7 +3,7 @@
  <NumericalData>
   <ResourceID>spase://GBO/NumericalData/RadioJOVE/HNRAO/TFD-FSX8S/PT0.3S</ResourceID>
   <ResourceHeader>
-   <ResourceName>RadioJOVE HNRAO Terminated Folded Dipole and FSX-8S
+   <ResourceName>Radio JOVE HNRAO Terminated Folded Dipole and FSX-8S
    15-30 MHZ Data</ResourceName>
    <ReleaseDate>2019-04-26T15:40:25</ReleaseDate>
    <Description>RadioJOVE Multiple Frequency Data Product. This data
@@ -59,7 +59,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>
    <AccessURL>
-    <Name>hRadio JOVE Data Archive</Name>
+    <Name>Radio JOVE Data Archive</Name>
     <URL>http://radiojove.org/archive.html</URL>
    </AccessURL>
    <Format>Binary</Format>

@@ -46,6 +46,11 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
     <Description>The page "Radio-SkyPipe data file structure" describes
     the file standard.</Description>
    </InformationURL>
+   <InformationURL>
+    <Name>>An Overview of the Radio JOVE Project</Name>
+    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/Radio%20Jove%20Summary%202014.pdf</URL>
+    <Description>An Overview of the Radio JOVE Project–Summer 2014Chuck Higgins, Middle Tennessee State University</Description>
+   </InformationURL>
   </ResourceHeader>
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/RadioJOVE</RepositoryID>

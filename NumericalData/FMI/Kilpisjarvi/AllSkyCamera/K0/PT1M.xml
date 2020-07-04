@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/FMI/Kilpisjarvi/AllSkyCamera/K0/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>FMI Kilpisjarvi, KILP, All-Sky Camera (ASC), Keograms, Key Parameter, K0, 1 min Data</ResourceName>
-      <ReleaseDate>2019-08-08T15:43:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Keograms are Quick-Look Data of an All-Sky Camera at Kilpisjarvi, 69.02 N Latitude, 20.79 E Longitude, maintained and operated by the Finnish Meteorological Institute. Keograms show the Intensity along the Middle Meridian of the Camera Field-of-View, FOV, as a Function of Time. The Camera has a Fish-Eye Lens of 180&#xB0; and Narrow Bandpass Interference Filters of Wavelengths 557.7 nm, green, and 630.0 nm, red. In Standard Operating Mode, the Sampling Interval is 20 s and 60 s for the Red Image and Green Image, respectively. The Exposure Time is typically 1 s. The Time Resolution of Keograms is 1 min and they are constructed using only the Green Images. The Size of a Digital Image is 512 &#xD7; 512 Pixels and the Intensity Values vary between 0 and 255. At the Altitude of 110 km, the FOV with reasonable Spatial Resolution is a Spherical Area with a Diameter of roughly 600 km. The Keograms shown here are Intensity versus Latitude Plots while the Original Keograms, available from http://www.geo.fmi.fi/MIRACLE, are Intensity versus Zenith Angle Plots. The Conversion from Zenith Angle Dependence to an Equidistant Latitude Grid occasionally causes an Artificial Two-Band Structure in the Keograms with light Bands below and above the darker Zenith. This Artefact becomes visible especially during Quiet Periods and the autoscaling Color Palette may even strengthen the Effect. Note that some Keograms also show the Moon as a Sphere or Ellipsoid with very high, sometimes saturating Intensities.</Description>
       <Acknowledgement>K. Kauristie</Acknowledgement>
       <Contact>
@@ -32,12 +32,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/finnish_meteor_inst_fmi/kilp/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/finnish_meteor_inst_fmi/kilp/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
 </AccessURL>

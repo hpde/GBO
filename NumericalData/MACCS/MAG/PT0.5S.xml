@@ -10,11 +10,11 @@
       <Description>The Magnetometer Array for Cusp and Cleft Studies (MACCS) program operates magnetometers in the arctic to 
 	  study the near-Earth space environment and have been providing 0.5 s resolution since 2011.</Description>
       <Acknowledgement>The authors thank M. J. Engebretson and the rest of the MACCS team for data. MACCS is operated by Augsburg Univerity and funded by the U.S. National Science Foundation.</Acknowledgement>
-	  <PublicationInfo>
-		<Authors>Engebretson, M. J.; Hughes, W. J.; Alford, J. L.; Zesta, E.; Cahill, L. J., Jr.; Arnoldy, R. L.; G. D. Reeves, G. D.</Authors>
-		<PublicationDate>1995-10-01T00:00:00.000Z</PublicationDate>
-		<PublishedBy>Journal of Geophysical Research</PublishedBy>
-	  </PublicationInfo>
+     	     <PublicationInfo>
+  		     <Authors>Engebretson, Mark J.; Steinmetz Erik; Moldwin, Mark</Authors>
+   		     <PublicationDate>2020-08-06T00:00:00.000Z</PublicationDate>
+   		     <PublishedBy> Augsburg University </PublishedBy> 
+	     </PublicationInfo>
 	  <Funding>
 	    <Agency>NSF Division of Atmospheric and Geospace Sciences </Agency>
 		<Project>Collaborative Research: Studies of Magnetospheric and Ionospheric Dynamics Using the Magnetometer Array for Cusp and Cleft Studies (MACCS)</Project>

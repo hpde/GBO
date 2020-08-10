@@ -12,7 +12,7 @@
       <Acknowledgement>The authors thank M. J. Engebretson and the rest of the MACCS team for data. MACCS is operated by Augsburg Univerity and funded by the U.S. National Science Foundation.</Acknowledgement>
      	     <PublicationInfo>
   		     <Authors>Engebretson, Mark J.; Steinmetz Erik; Moldwin, Mark</Authors>
-   		     <PublicationDate>2020-08-06T00:00:00.000Z</PublicationDate>
+   		     <PublicationDate>2011-01-01T00:00:00.000Z</PublicationDate>
    		     <PublishedBy> Augsburg University </PublishedBy> 
 	     </PublicationInfo>
 	  <Funding>
@@ -41,7 +41,7 @@
 		<Language>en</Language>
       </InformationURL>
 	  <PriorID>spase://VSPO/NumericalData/P_MACCS_HDR_AUGSBURG</PriorID>
-      <PriorID>spase://VSPO/NumericalData/MACCS/MAG/PT0.50S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/MACCS/MAG/PT0.50S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/Augsburg</RepositoryID>

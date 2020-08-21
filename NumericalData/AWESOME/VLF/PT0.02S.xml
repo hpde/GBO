@@ -4,7 +4,7 @@
   <ResourceID>spase://GBO/NumericalData/AWESOME/VLF/PT0.02S</ResourceID>
   <ResourceHeader>
    <ResourceName>AWESOME receiver system narrowband VLF data</ResourceName>
-   <ReleaseDate>2020-06-26T15:21:25</ReleaseDate>
+   <ReleaseDate>2020-08-21T19:35:36Z</ReleaseDate>
    <Description>Most of the data is collected on two air-core loop
    antennas, oriented orthogonal, to collect the two horizontal
    components of the magnetic field. The north-south, or N/S antenna
@@ -89,7 +89,7 @@ help analyzing and interpreting the large dataset.
    <Format>MATLAB_4</Format>
    <Acknowledgement>VLF data are provided by the WALDO database (http://waldo.world), operated jointly by the Georgia Institute of Technology, and the University of Colorado Denver, using data collected from those institutions as well as Stanford University, and has been supported by various US government grants from the NSF, NASA, and the Department of Defense.</Acknowledgement>
   </AccessInformation>
-  <InstrumentID>spase://SMWG/Instrument/AWESOME-VLF</InstrumentID>
+  <InstrumentID>spase://SMWG/Instrument/AWESOME/VLF</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <TemporalDescription>
     <TimeSpan>

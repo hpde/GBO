@@ -4,7 +4,7 @@
   <ResourceID>spase://GBO/DisplayData/AWESOME/VLF/Narrowband/P1D</ResourceID>
   <ResourceHeader>
    <ResourceName>AWESOME receiver system quick-look Narrowband Summary Charts</ResourceName>
-   <ReleaseDate>2020-06-26T13:19:05</ReleaseDate>
+   <ReleaseDate>2020-08-21T19:35:36Z</ReleaseDate>
    <Description>The narrowband summary chart shows amplitude and
    phase. The rows represent each transmitter-receiver path, as
    labeled in the top left corner. The four columns represent channel
@@ -75,7 +75,7 @@ help analyzing and interpreting the large dataset.
    </AccessURL>
    <Format>PNG</Format>
   </AccessInformation>
-  <InstrumentID>spase://SMWG/Instrument/AWESOME-VLF</InstrumentID>
+  <InstrumentID>spase://SMWG/Instrument/AWESOME/VLF</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
   <ObservedRegion>Earth.NearSurface</ObservedRegion>

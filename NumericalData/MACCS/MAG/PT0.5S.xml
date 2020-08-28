@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/MACCS/MAG/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>MACCS 0.5 s Ground Magnetometer Data</ResourceName>
 	  <DOI>https://doi.org/10.48322/sydj-ab90</DOI>
-      <ReleaseDate>2020-08-05T10:59:51.000Z</ReleaseDate>
+      <ReleaseDate>2020-08-28T18:26:14Z</ReleaseDate>
       <Description>The Magnetometer Array for Cusp and Cleft Studies (MACCS) program operates magnetometers in the arctic to 
 	  study the near-Earth space environment and have been providing 0.5 s resolution since 2011.</Description>
       <Acknowledgement>The authors thank M. J. Engebretson and the rest of the MACCS team for data. MACCS is operated by Augsburg Univerity and funded by the U.S. National Science Foundation.</Acknowledgement>
@@ -48,7 +48,7 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>MACCS web site at Augsburg College</Name>
+        <Name>MACCS web site at Augsburg University</Name>
         <URL>http://space.augsburg.edu/maccs/</URL>
       </AccessURL>
       <Format>Text</Format>

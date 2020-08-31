@@ -4,7 +4,7 @@
   <ResourceID>spase://GBO/NumericalData/AWESOME/VLF/PT0.02S</ResourceID>
   <ResourceHeader>
    <ResourceName>AWESOME receiver system narrowband VLF data</ResourceName>
-   <ReleaseDate>2020-08-21T19:35:36Z</ReleaseDate>
+   <ReleaseDate>2020-08-31T15:58:16Z</ReleaseDate>
    <Description>Most of the data is collected on two air-core loop
    antennas, oriented orthogonal, to collect the two horizontal
    components of the magnetic field. The north-south, or N/S antenna
@@ -66,11 +66,6 @@ curators request, but do not require, to be contacted to discuss the
 possibility of joint authorship, with the WALDO curators providing
 help analyzing and interpreting the large dataset. 
    </Acknowledgement> 
-   <PublicationInfo>
-    <Authors>Cohen,Morris, B.; Inan, Umran S.; Paschal, Evans W.</Authors>
-    <PublicationDate>2010-01-01T00:00:00</PublicationDate>
-    <PublishedBy>IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING</PublishedBy>
-   </PublicationInfo>
    <Contact>
     <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
     <Role>ArchiveSpecialist</Role>

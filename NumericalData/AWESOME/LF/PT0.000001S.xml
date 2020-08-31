@@ -4,7 +4,7 @@
   <ResourceID>spase://GBO/NumericalData/AWESOME/LF/PT0.000001S</ResourceID>
   <ResourceHeader>
    <ResourceName>AWESOME receiver system broadband VLF/LF data</ResourceName>
-   <ReleaseDate>2020-08-21T19:35:36Z</ReleaseDate>
+   <ReleaseDate>2020-08-31T15:58:16Z</ReleaseDate>
    <Description>Most of the data is collected on two air-core loop
    antennas, oriented orthogonal, to collect the two horizontal
    components of the magnetic field. The north-south, or N/S antenna
@@ -47,13 +47,6 @@ curators request, but do not require, to be contacted to discuss the
 possibility of joint authorship, with the WALDO curators providing
 help analyzing and interpreting the large dataset. 
    </Acknowledgement> 
-   <PublicationInfo>
-    <Authors>Cohen,Morris, B.; Said,Ryan K.; Paschal, Evans W.;
-    McCormick, Jackson C.;Gross, Nicolas C.; Thompson, Lee;
-    Higginson-Rollins, Marc; Inan, Umran S.; Chang, Jeffrey </Authors>
-    <PublicationDate>2018-09-07T00:00:00</PublicationDate>
-    <PublishedBy>Rev. Sci. Instrum.</PublishedBy>
-   </PublicationInfo>
    <Contact>
     <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
     <Role>ArchiveSpecialist</Role>

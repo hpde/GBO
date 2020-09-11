@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>MACCS 5 s Ground Magnetometer Data</ResourceName>
 	  <DOI>https://doi.org/10.48322/t37w-as51</DOI>
-      <ReleaseDate>2020-08-28T18:26:14Z</ReleaseDate>
+      <ReleaseDate>2020-09-10T18:26:14Z</ReleaseDate>
       <Description>The Magnetometer Array for Cusp and Cleft Studies (MACCS) program operates magnetometers 
 	  in the arctic to study the near-Earth space environment and provided 5 s resolution data from 1992 to 2009.
 	  Now MACCS provides 0.5 s resolution data.</Description>
@@ -96,7 +96,7 @@
 	  <Units>nT</Units>
 	  <CoordinateSystem>
 	    <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-		<CoordinateSystemName>MAG</CoordinateSystemName>
+		<CoordinateSystemName>GEO</CoordinateSystemName>
 	  </CoordinateSystem>
 	  <FillValue>99999.99</FillValue>
 	  <Field>
@@ -111,7 +111,7 @@
 	  <Units>nT</Units>
 	  <CoordinateSystem>
 	    <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-		<CoordinateSystemName>MAG</CoordinateSystemName>
+		<CoordinateSystemName>GEO</CoordinateSystemName>
 	  </CoordinateSystem>
 	  <FillValue>99999.99</FillValue>
 	  <Field>
@@ -126,7 +126,7 @@
 	  <Units>nT</Units>
 	  <CoordinateSystem>
 	    <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-		<CoordinateSystemName>MAG</CoordinateSystemName>
+		<CoordinateSystemName>GEO</CoordinateSystemName>
 	  </CoordinateSystem>
 	  <FillValue>99999.99</FillValue>
 	  <Field>

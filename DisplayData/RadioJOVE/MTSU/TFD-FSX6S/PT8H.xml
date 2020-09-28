@@ -2,21 +2,18 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <DisplayData>
-  <ResourceID>spase://GBO/DisplayData/RadioJOVE/HNRAO/DualDipole-RJ/PT24H</ResourceID>
+  <ResourceID>spase://GBO/DisplayData/RadioJOVE/MTSU/TFD-FSX6S/PT8H</ResourceID>
   <ResourceHeader>
-   <ResourceName>Radio JOVE HNRAO Dual Dipole Array + JOVE receiver
-   20.1 MHz Stripchart Plots</ResourceName>
+   <ResourceName>Radio JOVE MTSU TFD+FSX6S Spectrograph 15-30 MHz
+   Dynamic Spectrogram Plots</ResourceName>
    <ReleaseDate>2020-09-25T19:20:59Z</ReleaseDate>
-   <Description>Stripchart plots from output of the HNRAO Dual Dipole
-   Array and JOVE receiver operating at 20.1 MHz. The plots
-   are generated using the Radio-SkyPipe software. The Display Cadence will often
-   vary but 24 Hours is a reasonable maximum value for the timespan of
-   a single plot. The plots depict a single channel of data. The data is
-   presented as Antenna Temperature in units of kiloKelvins. The date
-   and the name of the observatory, HNRAO, is usually given across the
-   top of the plot. Time is presented in Universal Time (UT).</Description>
+   <Description>Dynamic Spectrogram plots from output of the MTSU Terminated
+   Folded Dipole and FSX6S Spectrograph operating from 15-30 MHz. The plots
+   are generated using the Radio-Sky Spectrograph software. The Display Cadence will
+   vary but 8 hours is a reasonable maximum value for the timespan of
+   a single file. Time is presented in Universal Time (UT).</Description>
    <Contact>
-    <PersonID>spase://SMWG/Person/James.Brown</PersonID>
+    <PersonID>spase://SMWG/Person/Chuck.Higgins</PersonID>
     <Role>DataProducer</Role>
    </Contact>
    <InformationURL>
@@ -33,9 +30,9 @@
    </AccessURL>
    <Format>JPEG</Format>
   </AccessInformation>
-  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/DualDipole-RJ</InstrumentID>
+  <InstrumentID>spase://SMWG/Instrument/Ground/MTSU/TFD-FSX6S</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <SpectralRange>RadioFrequency</SpectralRange>
-  <DisplayCadence>PT24H</DisplayCadence>
+  <DisplayCadence>PT8H</DisplayCadence>
  </DisplayData>
 </Spase>

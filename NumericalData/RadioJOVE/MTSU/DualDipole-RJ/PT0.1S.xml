@@ -2,14 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <NumericalData>
-  <ResourceID>spase://GBO/NumericalData/RadioJOVE/HNRAO/DualDipole-RJ/PT0.1S</ResourceID>
+  <ResourceID>spase://GBO/NumericalData/RadioJOVE/MTSU/DualDipole-RJ/PT0.1S</ResourceID>
   <ResourceHeader>
-   <ResourceName>Radio JOVE HNRAO Dual Dipole Array and Radio Jove
+   <ResourceName>Radio JOVE MTSU Dual Dipole Array and Radio Jove
    20.1 MHZ Data</ResourceName>
    <ReleaseDate>2020-09-25T19:20:59Z</ReleaseDate>
-   <Description>RadioJOVE Single Frequency Data Product. This data
-set consists of observations made at the Hawk's Nest Radio Astronomy
-   Observatory (HNRAO) using a Dual Dipole Array and a 20.1 MHz Radio
+   <Description>Radio JOVE Single Frequency Data Product. This data
+set consists of observations made at the Middle Tennessee State
+University (MTSU) using a Dual Dipole Array and a 20.1 MHz Radio 
    JOVE direct conversion receiver, 7 kHz Bandwidth. These data are
    generated using the Radio Sky-Pipe Software. The data set consists
    of a single channel of data. 
@@ -25,7 +25,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
    found in the Data File Structure document on the Radio-SkyPipe help
    page (see Information URL).</Description>
    <Contact>
-    <PersonID>spase://SMWG/Person/James.Brown</PersonID>
+    <PersonID>spase://SMWG/Person/Chuck.Higgins</PersonID>
     <Role>DataProducer</Role>
    </Contact>
   <Contact>
@@ -61,7 +61,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
    </AccessURL>
    <Format>Binary</Format>
   </AccessInformation>
-  <InstrumentID>spase://SMWG/Instrument/Ground/HNRAO/DualDipole-RJ</InstrumentID>
+  <InstrumentID>spase://SMWG/Instrument/Ground/MTSU/DualDipole-RJ</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <SpectralRange>RadioFrequency</SpectralRange>
   <Parameter>

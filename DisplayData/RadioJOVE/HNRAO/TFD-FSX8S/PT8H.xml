@@ -1,10 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <DisplayData>
   <ResourceID>spase://GBO/DisplayData/RadioJOVE/HNRAO/TFD-FSX8S/PT8H</ResourceID>
   <ResourceHeader>
-   <ResourceName>Radio JOVE HNRAO TFD+FSX8S Spectrograph 15-30 MHz Dynamic Spectrograms</ResourceName>
-   <ReleaseDate>2019-04-26T12:49:33</ReleaseDate>
+   <ResourceName>Radio JOVE HNRAO TFD+FSX8S Spectrograph 15-30 MHz
+   Dynamic Spectrogram Plots</ResourceName>
+   <ReleaseDate>2020-09-25T19:20:59Z</ReleaseDate>
    <Description>Dynamic Spectrogram plots from output of the HNRAO Terminated
    Folded Dipole and FSX8S Spectrograph operating from 15-30 MHz. The plots
    are generated using the Radio-Sky Spectrograph software. The Display Cadence will

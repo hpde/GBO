@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <NumericalData>
@@ -5,7 +6,7 @@
   <ResourceHeader>
    <ResourceName>Radio JOVE HNRAO Terminated Folded Dipole and FSX-8S
    15-30 MHZ Data</ResourceName>
-   <ReleaseDate>2019-04-26T15:40:25</ReleaseDate>
+   <ReleaseDate>2020-09-25T19:20:59Z</ReleaseDate>
    <Description>RadioJOVE Multiple Frequency Data Product. This data
 set consists of observations made at the Hawk's Nest Radio Astronomy
    Observatory (HNRAO) using a Terminated Folded Dipole and an FSX-8S
@@ -33,7 +34,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
     <Role>DataProducer</Role>
    </Contact>
   <Contact>
-    <PersonID>spase://SMWG/Person/James.Sky</PersonID>
+    <PersonID>spase://SMWG/Person/Jim.Sky</PersonID>
     <Role>TechnicalContact</Role>
    </Contact>
   <Contact>

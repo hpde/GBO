@@ -4,8 +4,23 @@
   <ResourceID>spase://GBO/NumericalData/AWESOME/LF/PT0.000001S</ResourceID>
   <ResourceHeader>
    <ResourceName>AWESOME receiver system broadband VLF/LF data</ResourceName>
-   <ReleaseDate>2020-08-31T15:58:16Z</ReleaseDate>
-   <Description>Most of the data is collected on two air-core loop
+    <DOI>https://doi.org/10.48322/fwte-dv13</DOI>  
+   <ReleaseDate>2020-09-28T21:24:52Z</ReleaseDate>
+   <Description>
+     The Low Frequency Atmospheric Weather Electromagnetic
+     System for Observation, Modeling, and Education, or LF AWESOME is a
+     high-sensitivity radio receiver for the frequency band 0.5-470 kHz.
+     The receiver is an upgraded version of the VLF AWESOME, which
+     provided high sensitivity broadband radio
+     measurements of natural lightning emissions, transmitting beacons,
+     and radio emissions from the near-Earth space environment. The
+     expanded capabilities of LF AWESOME allow detection of radio
+     atmospherics from lightning strokes at 
+     global distances and multiple traverses a round the world. It also
+     allows monitoring of transmitting beacons in the LF/MF band at
+     thousands of km distance.
+ 
+   Most of the data is collected on two air-core loop
    antennas, oriented orthogonal, to collect the two horizontal
    components of the magnetic field. The north-south, or N/S antenna
    is sensitive mostly to waves arriving from the north of from the
@@ -47,6 +62,11 @@ curators request, but do not require, to be contacted to discuss the
 possibility of joint authorship, with the WALDO curators providing
 help analyzing and interpreting the large dataset. 
    </Acknowledgement> 
+   <PublicationInfo>
+        <Authors>Morris B. Cohen</Authors>
+        <PublicationDate>2020-01-01T00:00:00Z</PublicationDate>
+        <PublishedBy>Worldwide Archive of Low frequency Data and Observations (WALDO)</PublishedBy>
+   </PublicationInfo>
    <Contact>
     <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
     <Role>ArchiveSpecialist</Role>

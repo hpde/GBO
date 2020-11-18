@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/Canberra/Magnetometer/PT1H/ASCII_FORMAT</ResourceID>
     <ResourceHeader>
       <ResourceName>Canberra Magnetometer 1-hr Data in ASCII Flat Table Format</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-11-17T18:54:11Z</ReleaseDate>
       <Description>Canberra Magnetometer data, 1-hr time resoluion, in ASCII format. Magnetic Field Vector Element List: DHXYZF. Note that the list of magnetic field elements that appear in the data set may change over the course of time. For instance, many stations have shifted from DHZ to the XYZ representation of the magnetic field. The time history listed below summarizes changes in element content. A description of the WDC Data Exchange Format for CADENCE magnetic field data is included at the end of this data product description.</Description>
       <Acknowledgement>Please acknowledge: Australian Geological Survey Organisation for providing the data observations, and the British Geological Survey, World Data Center for Geomagnetism, Edinburgh for providing access to the data.</Acknowledgement>
       <Contact>
@@ -49,7 +49,7 @@
       <Acknowledgement>Please thank the British Geological Survey, World Data Center, Edinburgh for use of data from the WDC Geomagnetic Data Master Catalog. The WDC to ASCII translation was performed at UCLA and the derived ASCII formatted data are available via the UCLA VMO data repository.</Acknowledgement>
 </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Ground/Canberra/Magnetometer</InstrumentID>
+    <InstrumentID>spase://ASWS/Instrument/Ground/Canberra/Magnetometer</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

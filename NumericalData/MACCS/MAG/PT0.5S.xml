@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/MACCS/MAG/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>MACCS 0.5 s Ground Magnetometer Data</ResourceName>
 	  <DOI>https://doi.org/10.48322/sydj-ab90</DOI>
-      <ReleaseDate>2020-08-28T18:26:14Z</ReleaseDate>
-      <Description>The Magnetometer Array for Cusp and Cleft Studies (MACCS) program operates magnetometers in the arctic to 
-	  study the near-Earth space environment and have been providing 0.5 s resolution since 2011.</Description>
+      <ReleaseDate>2021-01-14T10:59:51.000Z</ReleaseDate>
+      <Description>The Magnetometer Array for Cusp and Cleft Studies (MACCS) program operates magnetometers in the arctic to study the near-Earth space environment and have been providing 0.5 s resolution since 2011.</Description>
       <Acknowledgement>The authors thank M. J. Engebretson and the rest of the MACCS team for data. MACCS is operated by Augsburg Univerity and funded by the U.S. National Science Foundation.</Acknowledgement>
      	     <PublicationInfo>
   		     <Authors>Engebretson, Mark J.; Steinmetz Erik; Moldwin, Mark</Authors>
@@ -88,8 +87,8 @@
 	  </Support>
 	</Parameter>	
     <Parameter>
-	  <Name>Bx</Name>
-	  <Description>Values are reported in geographic coordinates.</Description>
+	  <Name>Bh</Name>
+	  <Description>Values are reported in local geomagnetic coordinates.</Description>
 	  <Caveats>Values are collected in local geomagnetic coordinates.</Caveats>
 	  <Units>nT</Units>
 	  <CoordinateSystem>
@@ -103,8 +102,8 @@
 	  </Field>
 	</Parameter>
 	<Parameter>
-	  <Name>By</Name>
-	  <Description>Values are reported in geographic coordinates.</Description>
+	  <Name>Bd</Name>
+	  <Description>Values are reported in local geomagnetic coordinates.</Description>
 	  <Caveats>Values are collected in local geomagnetic coordinates.</Caveats>
 	  <Units>nT</Units>
 	  <CoordinateSystem>
@@ -119,7 +118,7 @@
 	</Parameter>
 	<Parameter>
 	  <Name>Bz</Name>
-	  <Description>Values are reported in geographic coordinates.</Description>
+	  <Description>Values are reported in local geomagnetic coordinates.</Description>
 	  <Caveats>Values are collected in local geomagnetic coordinates.</Caveats>
 	  <Units>nT</Units>
 	  <CoordinateSystem>

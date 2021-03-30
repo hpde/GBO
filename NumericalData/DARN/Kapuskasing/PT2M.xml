@@ -5,7 +5,7 @@
     <ResourceID>spase://GBO/NumericalData/DARN/Kapuskasing/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>SuperDARN Kapuskasing (KAPU), Ionospheric Convection Velocity</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Super Dual Auroral Radar Network, SuperDARN, Kapuskasing, Key Parameters Data, Ionospheric Convection North and East Velocities</Description>
       <Acknowledgement>R. Greenwald</Acknowledgement>
       <Contact>
@@ -68,7 +68,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DN_K0_KAPU&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DN_K0_KAPU&amp;index=sp_phys</URL>
         <ProductKey>DN_K0_KAPU</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

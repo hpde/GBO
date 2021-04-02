@@ -1,6 +1,6 @@
 # GBO
 
-Ground Based Observtory
+Ground Based Observtory (GBO)
 
 A common repository for SPASE descriptions of data that is observed by ground based observatories or data that is derived from ground based data.
 

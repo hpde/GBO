@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Cosmic Ray Intensities Hourly  averages from the Climax Neutron Monitor</ResourceName>
       <AlternateName>Climax Hourly Counting Rates</AlternateName>
-      <ReleaseDate>2018-05-29T14:44:18Z</ReleaseDate>
+      <ReleaseDate>2021-04-26T14:44:18Z</ReleaseDate>
       <Description>Hourly averages of relativistic cosmic ray intensities from the Climax Neutron Monitor</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator  (Dr. Clifford Lopate)</Acknowledgement>
       <Contact>
@@ -16,7 +16,7 @@
       </Contact>
       <InformationURL>
         <Name>World Data Center for Cosmic Rays (WDCCR) Read_Me (Starting Point of Data Access)</Name>
-        <URL>http://cidas.isee.nagoya-u.ac.jp/WDCCR/readme.html</URL>
+        <URL>https://cidas.isee.nagoya-u.ac.jp/WDCCR/readme.html</URL>
         <Description>This Web page includes numerical data and plots of cosmic-ray neutron observations covering the interval from 1953 to present.</Description>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/NeutronMonitor/Climax/PT1H</PriorID>

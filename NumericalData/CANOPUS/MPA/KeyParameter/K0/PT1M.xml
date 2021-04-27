@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/CANOPUS/MPA/KeyParameter/K0/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS Meridian Scanning Photometer Array (MPA), Key Parameters, K0, 1 min Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
-      <Description>Station Status, Merged Scaled 557.7 nm Scans and Peak Intensity. Merged Scans&gt;from 3 stations along constant Geodetic Longitude of 265&#xB0;, from Latitude 46&#xB0; to 67&#xB0; References: Rostoker, G., Samson, J.C., Creutzberg, F., Hughes, T.J., McDiarmid, D.R., McNamara, A.G., Vallance Jones, A., Wallis, D.D., Cogger, L.L., CANOPUS - A Ground Based Instrument Array for Remote Sensing the High Latitude Ionosphere during the ISTP/GGS Program, Space Science Reviews, 71, Issue 1-4, 743-760, 1995. Samson, J.C., Lyons, L.R., Newell, P.T., Creutzberg, F. and Xu, B., Proton Aurora Substorm Intensifications, Geophys. Res. Lett., 19, 2167, 1992. Samson, J.C., Hughes, T.J., Creutzberg, F., Wallis, D.D., Greenwald, R.A. and Ruohoniemi, J.M., Observations of a Detached Discrete Arc in association with Field Line Resonances, J. Geophys. Res., 96, 15, 683, 1991.</Description>
+      <ReleaseDate>2021-04-27T17:51:40Z</ReleaseDate>
+      <Description>Station Status, Merged Scaled 557.7 nm Scans and Peak Intensity. Merged Scans&gt;from 3 stations along constant Geodetic Longitude of 265°, from Latitude 46° to 67° References: Rostoker, G., Samson, J.C., Creutzberg, F., Hughes, T.J., McDiarmid, D.R., McNamara, A.G., Vallance Jones, A., Wallis, D.D., Cogger, L.L., CANOPUS - A Ground Based Instrument Array for Remote Sensing the High Latitude Ionosphere during the ISTP/GGS Program, Space Science Reviews, 71, Issue 1-4, 743-760, 1995. Samson, J.C., Lyons, L.R., Newell, P.T., Creutzberg, F. and Xu, B., Proton Aurora Substorm Intensifications, Geophys. Res. Lett., 19, 2167, 1992. Samson, J.C., Hughes, T.J., Creutzberg, F., Wallis, D.D., Greenwald, R.A. and Ruohoniemi, J.M., Observations of a Detached Discrete Arc in association with Field Line Resonances, J. Geophys. Res., 96, 15, 683, 1991.</Description>
       <Acknowledgement>J.C. Samson, E.F. Donovan</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/John.Craig.Samson</PersonID>
@@ -53,6 +53,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J.C. Samson, E.F. Donovan. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>CN_K0_MPA</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J.C. Samson, E.F. Donovan. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -158,10 +172,10 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Peak Intensity in the 265&#xB0; Longitudinal Chain</Name>
+      <Name>Peak Intensity in the 265° Longitudinal Chain</Name>
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>i_max</ParameterKey>
-      <Description>Brightest Intensity from four Stations located from 46 to 67&#xB0; Geodetic Latitude in the 265&#xB0; Meridional Longitude Chain</Description>
+      <Description>Brightest Intensity from four Stations located from 46 to 67° Geodetic Latitude in the 265° Meridional Longitude Chain</Description>
       <Cadence>PT1M</Cadence>
       <Units>R</Units>
       <UnitsConversion>1e-10&gt;m^-2 s-1</UnitsConversion>
@@ -235,7 +249,7 @@
       <Name>Merged Scan</Name>
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>scan</ParameterKey>
-      <Description>5577&#x212B; Intensities, Values for 42 Positions located from 46 to 67&#xB0; Geodetic Latitude along the 265&#xB0; Longitude Meridional Chain</Description>
+      <Description>5577Å Intensities, Values for 42 Positions located from 46 to 67° Geodetic Latitude along the 265° Longitude Meridional Chain</Description>
       <Cadence>PT1M</Cadence>
       <Units>254/i_max R</Units>
       <UnitsConversion>1e-10(254/i_max)&gt;m^-2 s-1</UnitsConversion>
@@ -589,7 +603,7 @@
       <ParameterKey>Geo_Latitude</ParameterKey>
       <Description>Geodetic Latitude, 42 Values</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <ValueFormat>G9.4</ValueFormat>

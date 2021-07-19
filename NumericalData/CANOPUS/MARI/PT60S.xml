@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-  <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://GBO/NumericalData/CANOPUS/MARI/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS MARI Key Parameters</ResourceName>
-      <ReleaseDate>2021-04-27T17:51:40Z</ReleaseDate>
+      <ReleaseDate>2021-07-19T14:39:57Z</ReleaseDate>
+      <RevisionHistory>
+         <RevisionEvent>
+            <ReleaseDate>2021-07-19T14:39:57Z</ReleaseDate>
+            <Note>Removed an empty Acknowledgement field</Note>
+         </RevisionEvent>
+      </RevisionHistory>
       <Description>CANOPUS MARI (Magnetometer and Riometer Array) Magnetometer Key Parameters - "Local AE Index" Upper and Lower Bounds</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gordon.Rostoker</PersonID>
@@ -46,7 +52,6 @@
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
-      <Acknowledgement/>
     </AccessInformation>
     <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/CANOPUS/MARI</InstrumentID>

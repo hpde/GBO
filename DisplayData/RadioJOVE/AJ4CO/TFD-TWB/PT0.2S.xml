@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://spase-group.org/data/schema/spase-2.3.2.xsd">
-<Version>2.3.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
  <DisplayData>
   <ResourceID>spase://GBO/DisplayData/RadioJOVE/AJ4CO/TFD-TWB/PT0.2S</ResourceID>
   <ResourceHeader>
@@ -18,17 +18,16 @@
    These data may include observations of Solar Radio Bursts, Jupiter
    decametric radio emission, or Galactic Background radio
    emission. In particular these data enable studies of
-   fine-structure in Jovian decametric S-bursts. 
-   </Description>
+   fine-structure in Jovian decametric S-bursts.</Description>
    <Contact>
     <PersonID>spase://SMWG/Person/David.Typinski</PersonID>
     <Role>DataProducer</Role>
    </Contact>
-  <Contact>
+   <Contact>
     <PersonID>spase://SMWG/Person/Jim.Sky</PersonID>
     <Role>TechnicalContact</Role>
    </Contact>
-  <Contact>
+   <Contact>
     <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
     <Role>ArchiveSpecialist</Role>
    </Contact>
@@ -40,22 +39,22 @@
    <InformationURL>
     <Name>Radio Sky Publishing Radio-SkyPipe Help Page</Name>
     <URL>http://radiosky.com/skypipehelp/V2/datastructure.html</URL>
-    <Description>The page "Radio-SkyPipe data file structure" describes
+    <Description>The page &quot;Radio-SkyPipe data file structure&quot; describes
     the file standard.</Description>
    </InformationURL>
    <InformationURL>
     <Name>An Overview of the Radio JOVE Project</Name>
-    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/Radio%20Jove%20Summary%202014.pdf</URL>
+    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/docs/RadioJoveSummary2014.pdf</URL>
     <Description>An Overview of the Radio JOVE Project–Summer 2014Chuck Higgins, Middle Tennessee State University</Description>
    </InformationURL>
-     <InformationURL>
+   <InformationURL>
     <Name>AJ4CO Radio Astronomy Publications</Name>
-    <URL>http://www.typnet.net/AJ4CO/Publications/Publications.htm</URL>
+    <URL>https://www.aj4co.org//Publications/Publications.html</URL>
     <Description>This site provides descriptions of radio receiver
     systems at AJ4CO as well as other radio astronomy-related
     documentation</Description>
    </InformationURL>
-     <InformationURL>
+   <InformationURL>
     <Name>AJ4CO Miscellaneous Data</Name>
     <URL>https://pds-ppi.igpp.ucla.edu/radiojove/radiojove-aj4co/radiojove-aj4co-misc-data/</URL>
     <Description>This site provides descriptions of radio receiver
@@ -64,7 +63,7 @@
     observation logs.</Description>
    </InformationURL>
   </ResourceHeader>
- <AccessInformation>
+  <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
    <AccessURL>
     <Name>Tunable Wideband Receiver AJ4CO Radio-Sky Spectrograph data
@@ -77,5 +76,5 @@
   <InstrumentID>spase://SMWG/Instrument/Ground/AJ4CO/TFD-TWB</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <DisplayCadence>PT0.2S</DisplayCadence>
-</DisplayData>
+ </DisplayData>
 </Spase>

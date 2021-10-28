@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://spase-group.org/data/schema/spase-2.3.2.xsd">
-<Version>2.3.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
  <NumericalData>
   <ResourceID>spase://GBO/NumericalData/RadioJOVE/AJ4CO/TFD-RJ/PT0.1S</ResourceID>
   <ResourceHeader>
@@ -29,11 +29,11 @@ Terminated Folded Dipole (TFD) Array and two 20.1 MHz Radio
     <PersonID>spase://SMWG/Person/David.Typinski</PersonID>
     <Role>DataProducer</Role>
    </Contact>
-  <Contact>
+   <Contact>
     <PersonID>spase://SMWG/Person/Jim.Sky</PersonID>
     <Role>TechnicalContact</Role>
    </Contact>
-  <Contact>
+   <Contact>
     <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
     <Role>ArchiveSpecialist</Role>
    </Contact>
@@ -45,22 +45,22 @@ Terminated Folded Dipole (TFD) Array and two 20.1 MHz Radio
    <InformationURL>
     <Name>Radio Sky Publishing Radio-SkyPipe Help Page</Name>
     <URL>http://radiosky.com/skypipehelp/V2/datastructure.html</URL>
-    <Description>The page "Radio-SkyPipe data file structure" describes
+    <Description>The page &quot;Radio-SkyPipe data file structure&quot; describes
     the file standard.</Description>
    </InformationURL>
    <InformationURL>
     <Name>An Overview of the Radio JOVE Project</Name>
-    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/Radio%20Jove%20Summary%202014.pdf</URL>
+    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/docs/RadioJoveSummary2014.pdf</URL>
     <Description>An Overview of the Radio JOVE Project–Summer 2014Chuck Higgins, Middle Tennessee State University</Description>
    </InformationURL>
-     <InformationURL>
+   <InformationURL>
     <Name>AJ4CO Radio Astronomy Publications</Name>
-    <URL>http://www.typnet.net/AJ4CO/Publications/Publications.htm</URL>
+    <URL>https://www.aj4co.org//Publications/Publications.html</URL>
     <Description>This site provides descriptions of radio receiver
     systems at AJ4CO as well as other radio astronomy-related
     documentation</Description>
    </InformationURL>
-     <InformationURL>
+   <InformationURL>
     <Name>AJ4CO Miscellaneous Data</Name>
     <URL>https://pds-ppi.igpp.ucla.edu/radiojove/radiojove-aj4co/radiojove-aj4co-misc-data/</URL>
     <Description>This site provides descriptions of radio receiver
@@ -75,7 +75,7 @@ Terminated Folded Dipole (TFD) Array and two 20.1 MHz Radio
    </AccessURL>
    <Format>Binary</Format>
   </AccessInformation>
- <AccessInformation>
+  <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
    <AccessURL>
     <Name>Radio JOVE AJ4CO Radio-SkyPipe data held at the Planetary Plasma Interactions node of the Planetary Data System</Name>
@@ -109,7 +109,7 @@ Terminated Folded Dipole (TFD) Array and two 20.1 MHz Radio
     </FrequencyRange>
    </Wave>
   </Parameter>
- <Parameter>
+  <Parameter>
    <Name>Channel 2: sound card right, average detection method,
    averaged raw sound card data (LCP)</Name>
    <Wave>
@@ -123,7 +123,7 @@ Terminated Folded Dipole (TFD) Array and two 20.1 MHz Radio
     </FrequencyRange>
    </Wave>
   </Parameter>
- <Parameter>
+  <Parameter>
    <Name>Channel 3: calibrated antenna temperature, RCP</Name>
    <Units>KiloKelvins</Units>
    <Wave>
@@ -137,7 +137,7 @@ Terminated Folded Dipole (TFD) Array and two 20.1 MHz Radio
     </FrequencyRange>
    </Wave>
   </Parameter>
- <Parameter>
+  <Parameter>
    <Name>Channel 4: calibrated antenna temperature, LCP</Name>
    <Units>KiloKelvins</Units>
    <Wave>
@@ -151,7 +151,7 @@ Terminated Folded Dipole (TFD) Array and two 20.1 MHz Radio
     </FrequencyRange>
    </Wave>
   </Parameter>
- <Parameter>
+  <Parameter>
    <Name>Channel 5: 10*log(RCP/LCP)</Name>
    <Wave>
     <WaveType>Electromagnetic</WaveType>

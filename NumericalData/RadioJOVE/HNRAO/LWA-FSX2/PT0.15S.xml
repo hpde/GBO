@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
- <Version>2.3.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
  <NumericalData>
   <ResourceID>spase://GBO/NumericalData/RadioJOVE/HNRAO/LWA-FSX2/PT0.15S</ResourceID>
   <ResourceHeader>
@@ -8,7 +7,7 @@
    15-30 MHZ Data</ResourceName>
    <ReleaseDate>2020-09-25T19:20:59Z</ReleaseDate>
    <Description>RadioJOVE Multiple Frequency Data Product. This data
-set consists of observations made at the Hawk's Nest Radio Astronomy
+set consists of observations made at the Hawk&#039;s Nest Radio Astronomy
    Observatory (HNRAO) using a Long Wavelength Array (LWA) 4 phased crossed
    dipoles square array and an FSX-2 10 bit single polarization spectrograph. These data are
    generated using the Radio Sky Spectrograph software. The data set consists
@@ -27,21 +26,20 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
    page (see Information URL).
 
    These data are submitted to the RadioJOVE Archive and to the
-   PDS/PPI archive at UCLA.
-   </Description>
+   PDS/PPI archive at UCLA.</Description>
    <Contact>
     <PersonID>spase://SMWG/Person/James.Brown</PersonID>
     <Role>DataProducer</Role>
    </Contact>
-  <Contact>
+   <Contact>
     <PersonID>spase://SMWG/Person/Jim.Sky</PersonID>
     <Role>TechnicalContact</Role>
    </Contact>
-  <Contact>
+   <Contact>
     <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
     <Role>ArchiveSpecialist</Role>
    </Contact>
-  <Contact>
+   <Contact>
     <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
     <Role>ArchiveSpecialist</Role>
    </Contact>
@@ -53,12 +51,12 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
    <InformationURL>
     <Name>Radio Sky Publishing Radio-SkyPipe Help Page</Name>
     <URL>http://radiosky.com/skypipehelp/V2/datastructure.html</URL>
-    <Description>The page "Radio-SkyPipe data file structure" describes
+    <Description>The page &quot;Radio-SkyPipe data file structure&quot; describes
     the file standard.</Description>
    </InformationURL>
    <InformationURL>
     <Name>An Overview of the Radio JOVE Project</Name>
-    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/Radio%20Jove%20Summary%202014.pdf</URL>
+    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/docs/RadioJoveSummary2014.pdf</URL>
     <Description>An Overview of the Radio JOVE Project–Summer 2014Chuck Higgins, Middle Tennessee State University</Description>
    </InformationURL>
   </ResourceHeader>
@@ -70,10 +68,10 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
    </AccessURL>
    <Format>Binary</Format>
   </AccessInformation>
- <AccessInformation>
+  <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
    <AccessURL>
-    <Name>PDS PPI </Name>
+    <Name>PDS PPI</Name>
     <URL>https://pds-ppi.igpp.ucla.edu</URL>
    </AccessURL>
    <Format>Binary</Format>
@@ -84,7 +82,7 @@ set consists of observations made at the Hawk's Nest Radio Astronomy
   <Parameter>
    <Name>Time</Name>
    <Description>The time array of the data. The time resolution is
-   variable but is typically set at about 0.15 seconds </Description>
+   variable but is typically set at about 0.15 seconds</Description>
    <Units>Days since 1 January 1900</Units>
    <Support>
     <SupportQuantity>Temporal</SupportQuantity>

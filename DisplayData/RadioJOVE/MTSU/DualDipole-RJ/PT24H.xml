@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
- <Version>2.3.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
  <DisplayData>
   <ResourceID>spase://GBO/DisplayData/RadioJOVE/MTSU/DualDipole-RJ/PT24H</ResourceID>
   <ResourceHeader>
@@ -21,7 +20,7 @@
    </Contact>
    <InformationURL>
     <Name>An Overview of the Radio JOVE Project</Name>
-    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/Radio%20Jove%20Summary%202014.pdf</URL>
+    <URL>https://radiojove.gsfc.nasa.gov/library/pubs/docs/RadioJoveSummary2014.pdf</URL>
     <Description>An Overview of the Radio JOVE Project–Summer 2014Chuck Higgins, Middle Tennessee State University</Description>
    </InformationURL>
   </ResourceHeader>

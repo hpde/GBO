@@ -27,9 +27,9 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Climax hourly intensities</Name>
-        <URL>ftp://ftp.isee.nagoya-u.ac.jp/pub/WDCCR/STATIONS/CLIMAX/SHORTFORMAT/</URL>
-        <Description>Parent directory containing compressed yearly files with naming convention 
-           "File: ClimaxYYYY" containg hourly averaged Climax neutron monitor intensity 
+        <URL>https://cidas.isee.nagoya-u.ac.jp/WDCCR/files/STATIONS/CLIMAX/SHORTFORMAT/</URL>
+        <Description>Parent directory containing compressed yearly files with naming convention
+           "File: ClimaxYYYY" containg hourly averaged Climax neutron monitor intensity
            measurements for YYYY = 1951 through 2006.</Description>
       </AccessURL>
       <Format>Text</Format>
@@ -49,7 +49,7 @@
       <Name>Interval Start Time</Name>
       <ParameterKey>Columns 1-3</ParameterKey>
       <Description>
-          Nominal Start Time for the average given as 
+          Nominal Start Time for the average given as
           MM/DD/YYYY HH SSSSSSSSSS
           where MM         = month of year (01-12)
                 DD         = Day of Month (01-31)

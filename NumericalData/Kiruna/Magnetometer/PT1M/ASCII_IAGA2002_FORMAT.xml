@@ -6,14 +6,14 @@
     <ResourceHeader>
       <ResourceName>Kiruna Magnetometer 1-min Data in ASCII Flat Table Format</ResourceName>
 	  <DOI>https://doi.org/10.48322/7xsf-ze79</DOI>
-	  <ReleaseDate>2024-03-01T12:34:56.789</ReleaseDate>
+	  <ReleaseDate>2024-03-04T12:34:56.789</ReleaseDate>
 	  <RevisionHistory>
 		 <RevisionEvent>
-		    <ReleaseDate>2024-02-28T12:34:56.789</ReleaseDate>
+		    <ReleaseDate>2024-03-04T12:34:56.789</ReleaseDate>
 		    <Note>Created SPASE Version 2.6.0. JMW</Note>
 		 </RevisionEvent>
 		 <RevisionEvent>
-		    <ReleaseDate>2024-03-01T12:34:56.789</ReleaseDate>
+		    <ReleaseDate>2024-03-04T12:34:56.789</ReleaseDate>
 		    <Note>Revised metadata are principal investigators request and Added DOI. JMW</Note>
 		 </RevisionEvent>
 	  </RevisionHistory>
